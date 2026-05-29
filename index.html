@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jennifer Phonics Lessons</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">Jennifer Phonics</p>
+      <h1>Phonics Rule Lessons</h1>
+    </div>
+    <div class="header-actions">
+      <a id="channelLink" href="https://www.youtube.com/@Rasslanguage" target="_blank" rel="noreferrer">Rasslanguage</a>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Phonics rule sidebar">
+      <div class="sidebar-head">
+        <h2>Rules</h2>
+        <input id="ruleSearch" type="search" placeholder="Search" autocomplete="off">
+      </div>
+      <nav id="ruleList" class="rule-list"></nav>
+    </aside>
+
+    <main class="lesson">
+      <section class="lesson-title">
+        <p id="ruleSource" class="eyebrow">Rule</p>
+        <h2 id="ruleTitle">Choose a phonics rule</h2>
+        <p id="ruleCount" class="muted"></p>
+      </section>
+
+      <section class="lesson-section video-section">
+        <div class="section-title">
+          <h3>A. Cartoon Video</h3>
+          <a id="videoSearchLink" href="https://www.youtube.com/@Rasslanguage" target="_blank" rel="noreferrer">Open on YouTube</a>
+        </div>
+        <iframe
+          id="videoFrame"
+          title="Rasslanguage phonics video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </section>
+
+      <section class="lesson-section">
+        <div class="section-title">
+          <h3>B. Words & Sentences</h3>
+          <button id="readRuleBtn" type="button">Read Rule</button>
+        </div>
+        <div id="wordCards" class="word-cards"></div>
+      </section>
+
+      <section class="lesson-section">
+        <div class="section-title">
+          <h3>C. Listen & Fill</h3>
+          <button id="shuffleQuizBtn" type="button">Shuffle</button>
+        </div>
+        <div id="quizRows" class="practice-list"></div>
+      </section>
+
+      <section class="lesson-section">
+        <div class="section-title">
+          <h3>D. Read Aloud Check</h3>
+          <span id="speechSupport" class="support-pill"></span>
+        </div>
+        <div id="readRows" class="practice-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="phonics-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
