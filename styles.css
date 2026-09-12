@@ -573,8 +573,20 @@ p {
   background: #fff8df;
 }
 
+.passage-line {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 12px;
+}
+
 .passage-text p {
   line-height: 1.45;
+}
+
+.passage-line span {
+  color: var(--green);
+  font-weight: 900;
 }
 
 .spell-inputs {

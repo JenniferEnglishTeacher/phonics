@@ -24,10 +24,10 @@
       <p class="muted">Listen, spell the key words, check punctuation, and read aloud.</p>
     </section>
 
-    <section class="lesson-section">
-      <div class="section-title">
-        <h3>A. Full Text</h3>
-        <button id="readPassageBtn" type="button">Read Passage</button>
+      <section class="lesson-section">
+        <div class="section-title">
+          <h3>A. Full Text</h3>
+          <button id="readPassageBtn" type="button">Read Passage</button>
       </div>
       <div id="passageText" class="passage-text"></div>
     </section>
@@ -142,6 +142,13 @@
         .replaceAll('"', "&quot;");
     }
 
+    function chooseVoice() {
+      const voices = window.speechSynthesis.getVoices();
+      return voices.find(v => /Jenny|Aria|Samantha|Zira|Google US English/i.test(v.name) && /^en/i.test(v.lang)) ||
+        voices.find(v => /^en[-_]US/i.test(v.lang)) ||
+        voices.find(v => /^en/i.test(v.lang));
+    }
+
     function speak(text) {
       if (!("speechSynthesis" in window)) return;
       window.speechSynthesis.cancel();
@@ -149,10 +156,7 @@
       utterance.lang = "en-US";
       utterance.rate = 0.74;
       utterance.pitch = 1.1;
-      const voices = window.speechSynthesis.getVoices();
-      const voice = voices.find(v => /Jenny|Aria|Samantha|Zira|Google US English/i.test(v.name) && /^en/i.test(v.lang)) ||
-        voices.find(v => /^en[-_]US/i.test(v.lang)) ||
-        voices.find(v => /^en/i.test(v.lang));
+      const voice = chooseVoice();
       if (voice) utterance.voice = voice;
       window.speechSynthesis.speak(utterance);
     }
@@ -197,7 +201,17 @@
     }
 
     function renderPassage() {
-      els.passageText.innerHTML = PASSAGE.map(item => `<p>${escapeHtml(sentenceDisplay(item))}</p>`).join("");
+      els.passageText.innerHTML = "";
+      PASSAGE.forEach((item, index) => {
+        const line = document.createElement("div");
+        line.className = "passage-line";
+        line.innerHTML = `
+          <button type="button" data-hear-line>Hear</button>
+          <p><span>${index + 1}.</span> ${escapeHtml(sentenceDisplay(item))}</p>
+        `;
+        line.querySelector("[data-hear-line]").addEventListener("click", () => speak(sentenceDisplay(item)));
+        els.passageText.append(line);
+      });
     }
 
     function renderSpellRows() {
@@ -210,7 +224,7 @@
           <div class="practice-body">
             <p class="sample">${escapeHtml(sentenceWithBlanks(item))}</p>
             <div class="button-row">
-              <button type="button" data-hear>Hear</button>
+              <button type="button" data-hear>Hear Sentence</button>
               <button type="button" data-check>Check</button>
             </div>
             <div class="spell-inputs">
@@ -290,7 +304,7 @@
           <div class="practice-body">
             <p class="sample">${escapeHtml(sentenceDisplay(item))}</p>
             <div class="button-row">
-              <button type="button" data-hear>Hear</button>
+              <button type="button" data-hear>Hear Sentence</button>
               <button type="button" data-record>Record</button>
             </div>
             <p class="transcript"></p>
@@ -305,7 +319,7 @@
 
     els.readPassageBtn.addEventListener("click", () => speak(PASSAGE.map(sentenceDisplay).join(" ")));
     if ("speechSynthesis" in window) {
-      window.speechSynthesis.onvoiceschanged = () => {};
+      window.speechSynthesis.onvoiceschanged = () => chooseVoice();
     }
     renderPassage();
     renderSpellRows();
