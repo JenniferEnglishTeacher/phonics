@@ -558,3 +558,48 @@ p {
   border-radius: 8px;
   background: #fffdf7;
 }
+
+.passage-page {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.passage-text {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff8df;
+}
+
+.passage-text p {
+  line-height: 1.45;
+}
+
+.spell-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.spell-inputs label {
+  display: grid;
+  gap: 6px;
+  color: var(--green);
+  font-weight: 900;
+}
+
+.spell-inputs input {
+  min-height: 54px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 12px;
+  font: inherit;
+}
+
+.passage-row .sample {
+  color: var(--ink);
+  font-weight: 850;
+}

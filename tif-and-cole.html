@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My View K5 Tif and Cole</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">Jennifer Phonics</p>
+      <h1>My View K5 Tif and Cole</h1>
+    </div>
+    <div class="header-actions">
+      <a href="index.html">Back to Phonics Rules</a>
+    </div>
+  </header>
+
+  <main class="lesson passage-page">
+    <section class="lesson-title">
+      <p class="eyebrow">Informational Passage Practice</p>
+      <h2>Short o and Long o Review</h2>
+      <p class="muted">Listen, spell the key words, check punctuation, and read aloud.</p>
+    </section>
+
+    <section class="lesson-section">
+      <div class="section-title">
+        <h3>A. Full Text</h3>
+        <button id="readPassageBtn" type="button">Read Passage</button>
+      </div>
+      <div id="passageText" class="passage-text"></div>
+    </section>
+
+    <section class="lesson-section">
+      <div class="section-title">
+        <h3>B. Listen and Spell</h3>
+        <span class="support-pill">2-4 blanks + punctuation</span>
+      </div>
+      <div id="spellRows" class="practice-list"></div>
+    </section>
+
+    <section class="lesson-section">
+      <div class="section-title">
+        <h3>C. Read Aloud Check</h3>
+        <span id="speechSupport" class="support-pill"></span>
+      </div>
+      <div id="readRows" class="practice-list"></div>
+    </section>
+  </main>
+
+  <script>
+    const PASSAGE = [
+      {
+        text: "Look at it come down!",
+        blanks: ["Look", "come", "down"],
+        punctuation: "!"
+      },
+      {
+        text: "Tif did not want to be wet.",
+        blanks: ["Tif", "not", "wet"],
+        punctuation: "."
+      },
+      {
+        text: "What can we do? said Cole.",
+        display: "\"What can we do?\" said Cole.",
+        blanks: ["What", "can", "Cole"],
+        punctuation: "?."
+      },
+      {
+        text: "Tif had on a blue one.",
+        blanks: ["Tif", "on", "one"],
+        punctuation: "."
+      },
+      {
+        text: "Cole had on a green one.",
+        blanks: ["Cole", "on", "one"],
+        punctuation: "."
+      },
+      {
+        text: "Let us go to our spot! said Tif.",
+        display: "\"Let us go to our spot!\" said Tif.",
+        blanks: ["Let", "go", "spot", "Tif"],
+        punctuation: "!."
+      },
+      {
+        text: "Tif saw a man with a vest.",
+        blanks: ["Tif", "man", "vest"],
+        punctuation: "."
+      },
+      {
+        text: "Cole saw some black smoke.",
+        blanks: ["Cole", "black", "smoke"],
+        punctuation: "."
+      },
+      {
+        text: "They went to a slope.",
+        blanks: ["They", "went", "slope"],
+        punctuation: "."
+      },
+      {
+        text: "Tif and Cole made a round home.",
+        blanks: ["Tif", "Cole", "round", "home"],
+        punctuation: "."
+      },
+      {
+        text: "They got on a sled.",
+        blanks: ["They", "got", "sled"],
+        punctuation: "."
+      },
+      {
+        text: "They had a lot of fun!",
+        blanks: ["They", "lot", "fun"],
+        punctuation: "!"
+      },
+      {
+        text: "What should I wear today?",
+        blanks: ["What", "I", "wear", "today"],
+        punctuation: "?"
+      },
+      {
+        text: "How can I stay dry?",
+        blanks: ["How", "I", "stay", "dry"],
+        punctuation: "?"
+      }
+    ];
+
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const els = {
+      passageText: document.querySelector("#passageText"),
+      spellRows: document.querySelector("#spellRows"),
+      readRows: document.querySelector("#readRows"),
+      readPassageBtn: document.querySelector("#readPassageBtn"),
+      speechSupport: document.querySelector("#speechSupport")
+    };
+
+    function escapeHtml(text) {
+      return String(text)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function speak(text) {
+      if (!("speechSynthesis" in window)) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "en-US";
+      utterance.rate = 0.74;
+      utterance.pitch = 1.1;
+      const voices = window.speechSynthesis.getVoices();
+      const voice = voices.find(v => /Jenny|Aria|Samantha|Zira|Google US English/i.test(v.name) && /^en/i.test(v.lang)) ||
+        voices.find(v => /^en[-_]US/i.test(v.lang)) ||
+        voices.find(v => /^en/i.test(v.lang));
+      if (voice) utterance.voice = voice;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    function normalizeText(text) {
+      return String(text).toLowerCase().replace(/[’']/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+    }
+
+    function normalizePunctuation(text) {
+      return String(text).replace(/\s+/g, "").replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
+    }
+
+    function wordsFrom(text) {
+      const clean = normalizeText(text);
+      return clean ? clean.split(" ") : [];
+    }
+
+    function sentenceDisplay(item) {
+      return item.display || item.text;
+    }
+
+    function sentenceWithBlanks(item) {
+      let output = sentenceDisplay(item);
+      item.blanks.forEach(word => {
+        output = output.replace(new RegExp(`\\b${word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`), "______");
+      });
+      return output.replace(/[.!?]/g, " ___");
+    }
+
+    function comparePronunciation(expected, transcript) {
+      const expectedWords = wordsFrom(expected);
+      const spokenWords = wordsFrom(transcript);
+      const spokenSet = new Set(spokenWords);
+      const missing = [];
+      let matched = 0;
+      expectedWords.forEach(word => {
+        if (spokenSet.has(word)) matched += 1;
+        else missing.push(word);
+      });
+      const percentage = expectedWords.length ? Math.round((matched / expectedWords.length) * 100) : 0;
+      return { percentage, missing: [...new Set(missing)] };
+    }
+
+    function renderPassage() {
+      els.passageText.innerHTML = PASSAGE.map(item => `<p>${escapeHtml(sentenceDisplay(item))}</p>`).join("");
+    }
+
+    function renderSpellRows() {
+      els.spellRows.innerHTML = "";
+      PASSAGE.forEach((item, index) => {
+        const row = document.createElement("article");
+        row.className = "practice-row passage-row";
+        row.innerHTML = `
+          <div class="practice-number">${index + 1}</div>
+          <div class="practice-body">
+            <p class="sample">${escapeHtml(sentenceWithBlanks(item))}</p>
+            <div class="button-row">
+              <button type="button" data-hear>Hear</button>
+              <button type="button" data-check>Check</button>
+            </div>
+            <div class="spell-inputs">
+              ${item.blanks.map((word, wordIndex) => `
+                <label>
+                  Word ${wordIndex + 1}
+                  <input type="text" data-word-index="${wordIndex}" autocomplete="off">
+                </label>
+              `).join("")}
+              <label>
+                Punctuation
+                <input type="text" data-punctuation autocomplete="off" placeholder=". ? ! ,">
+              </label>
+            </div>
+            <p class="feedback"></p>
+          </div>
+        `;
+        row.querySelector("[data-hear]").addEventListener("click", () => speak(sentenceDisplay(item)));
+        row.querySelector("[data-check]").addEventListener("click", () => {
+          const wordInputs = [...row.querySelectorAll("[data-word-index]")];
+          const wordResults = wordInputs.map((input, inputIndex) => normalizeText(input.value) === normalizeText(item.blanks[inputIndex]));
+          const punctuationInput = row.querySelector("[data-punctuation]");
+          const punctuationCorrect = normalizePunctuation(punctuationInput.value) === normalizePunctuation(item.punctuation);
+          const wrongWords = item.blanks.filter((word, wordIndex) => !wordResults[wordIndex]);
+          const feedback = row.querySelector(".feedback");
+          if (!wrongWords.length && punctuationCorrect) {
+            feedback.textContent = "Correct!";
+            feedback.className = "feedback correct";
+          } else {
+            const wordHelp = wrongWords.length ? `Words: ${wrongWords.join(", ")}` : "Words: OK";
+            const punctuationHelp = punctuationCorrect ? "Punctuation: OK" : `Punctuation: ${item.punctuation}`;
+            feedback.textContent = `Try again. ${wordHelp}. ${punctuationHelp}`;
+            feedback.className = "feedback wrong";
+          }
+        });
+        els.spellRows.append(row);
+      });
+    }
+
+    function startRecording(item, row) {
+      const transcriptBox = row.querySelector(".transcript");
+      const resultBox = row.querySelector(".pronunciation-result");
+      if (!SpeechRecognition) {
+        transcriptBox.textContent = "Voice typing is not available in this browser.";
+        return;
+      }
+      const recognition = new SpeechRecognition();
+      recognition.lang = "en-US";
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+      transcriptBox.textContent = "Listening...";
+      resultBox.textContent = "";
+      recognition.onresult = event => {
+        const transcript = event.results[0][0].transcript;
+        const score = comparePronunciation(sentenceDisplay(item), transcript);
+        transcriptBox.textContent = transcript;
+        resultBox.innerHTML = `
+          <strong>${score.percentage}% correct</strong>
+          <span>${score.missing.length ? `Practice: ${escapeHtml(score.missing.join(", "))}` : "Great reading!"}</span>
+        `;
+        resultBox.className = `pronunciation-result ${score.percentage >= 85 ? "correct" : "wrong"}`;
+      };
+      recognition.onerror = () => {
+        transcriptBox.textContent = "Recording did not work. Please try again.";
+      };
+      recognition.start();
+    }
+
+    function renderReadRows() {
+      els.speechSupport.textContent = SpeechRecognition ? "Voice typing ready" : "Chrome voice typing needed";
+      els.readRows.innerHTML = "";
+      PASSAGE.forEach((item, index) => {
+        const row = document.createElement("article");
+        row.className = "practice-row passage-row";
+        row.innerHTML = `
+          <div class="practice-number">${index + 1}</div>
+          <div class="practice-body">
+            <p class="sample">${escapeHtml(sentenceDisplay(item))}</p>
+            <div class="button-row">
+              <button type="button" data-hear>Hear</button>
+              <button type="button" data-record>Record</button>
+            </div>
+            <p class="transcript"></p>
+            <p class="pronunciation-result"></p>
+          </div>
+        `;
+        row.querySelector("[data-hear]").addEventListener("click", () => speak(sentenceDisplay(item)));
+        row.querySelector("[data-record]").addEventListener("click", () => startRecording(item, row));
+        els.readRows.append(row);
+      });
+    }
+
+    els.readPassageBtn.addEventListener("click", () => speak(PASSAGE.map(sentenceDisplay).join(" ")));
+    if ("speechSynthesis" in window) {
+      window.speechSynthesis.onvoiceschanged = () => {};
+    }
+    renderPassage();
+    renderSpellRows();
+    renderReadRows();
+  </script>
+</body>
+</html>
