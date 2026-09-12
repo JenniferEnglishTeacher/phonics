@@ -304,6 +304,12 @@ function renderWords(rule) {
           <div class="button-row">
             <button type="button" data-speak-word>Word</button>
             <button type="button" data-speak-sentence>Sentence</button>
+            <button type="button" data-record-card>Speak</button>
+          </div>
+          <div class="mini-pronunciation">
+            <p class="read-target">Read: ${escapeHtml(sentenceWithAnswer(item))}</p>
+            <p class="transcript"></p>
+            <p class="pronunciation-result"></p>
           </div>
         </div>
         <div class="flip-face flip-back">
@@ -325,6 +331,10 @@ function renderWords(rule) {
     card.querySelector("[data-speak-sentence]").addEventListener("click", event => {
       event.stopPropagation();
       speak(sentenceWithAnswer(item));
+    });
+    card.querySelector("[data-record-card]").addEventListener("click", event => {
+      event.stopPropagation();
+      startRecording(item, card);
     });
     card.querySelector("[data-next-photo]").addEventListener("click", async event => {
       event.stopPropagation();

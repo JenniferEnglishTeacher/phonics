@@ -265,14 +265,14 @@ p {
 }
 
 .word-card {
-  min-height: 360px;
+  min-height: 500px;
   perspective: 1000px;
   cursor: pointer;
 }
 
 .flip-card {
   position: relative;
-  min-height: 360px;
+  min-height: 500px;
   height: 100%;
   transform-style: preserve-3d;
   transition: transform 0.55s ease;
@@ -362,6 +362,18 @@ p {
   margin-top: 10px;
   line-height: 1.46;
   font-size: 25px;
+}
+
+.mini-pronunciation {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+}
+
+.read-target {
+  color: var(--green);
+  line-height: 1.35;
+  font-weight: 800;
 }
 
 .translation {
