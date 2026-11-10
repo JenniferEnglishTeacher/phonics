@@ -3173,6 +3173,62 @@ const PHONICS_RULES = [
     "sentence": "Don't ______ water on me!",
     "translation": "不要噴水在我身上！",
     "answer": "spray"
+   },
+   {
+    "word": "brain",
+    "pos": "Noun",
+    "definition": "大腦",
+    "sentence": "Your ______ helps you think.",
+    "translation": "你的大腦幫助你思考。",
+    "answer": "brain"
+   },
+   {
+    "word": "nail",
+    "pos": "Noun",
+    "definition": "指甲；釘子",
+    "sentence": "Don't bite your ______s.",
+    "translation": "不要咬指甲。",
+    "answer": "nail"
+   },
+   {
+    "word": "sail",
+    "pos": "Verb",
+    "definition": "航行",
+    "sentence": "We ______ on the sea.",
+    "translation": "我們在海上航行。",
+    "answer": "sail"
+   },
+   {
+    "word": "stay",
+    "pos": "Verb",
+    "definition": "停留",
+    "sentence": "______ home today. It's raining.",
+    "translation": "今天待在家，在下雨。",
+    "answer": "stay"
+   },
+   {
+    "word": "pay",
+    "pos": "Verb",
+    "definition": "付錢",
+    "sentence": "I ______ for the ice cream.",
+    "translation": "我付冰淇淋的錢。",
+    "answer": "pay"
+   },
+   {
+    "word": "birthday",
+    "pos": "Noun",
+    "definition": "生日",
+    "sentence": "Happy ______ to you!",
+    "translation": "祝你生日快樂！",
+    "answer": "birthday"
+   },
+   {
+    "word": "Sunday",
+    "pos": "Noun",
+    "definition": "星期日",
+    "sentence": "We go to the park on ______.",
+    "translation": "我們星期日去公園。",
+    "answer": "Sunday"
    }
   ]
  },
@@ -3294,6 +3350,62 @@ const PHONICS_RULES = [
     "sentence": "I ______ a book every night.",
     "translation": "我每晚讀一本書。",
     "answer": "read"
+   },
+   {
+    "word": "green",
+    "pos": "Adjective",
+    "definition": "綠色的",
+    "sentence": "The grass is ______.",
+    "translation": "草是綠色的。",
+    "answer": "green"
+   },
+   {
+    "word": "week",
+    "pos": "Noun",
+    "definition": "星期；一週",
+    "sentence": "There are seven days in a ______.",
+    "translation": "一週有七天。",
+    "answer": "week"
+   },
+   {
+    "word": "street",
+    "pos": "Noun",
+    "definition": "街道",
+    "sentence": "Don't play on the ______.",
+    "translation": "不要在街上玩。",
+    "answer": "street"
+   },
+   {
+    "word": "meat",
+    "pos": "Noun",
+    "definition": "肉",
+    "sentence": "Tigers eat ______.",
+    "translation": "老虎吃肉。",
+    "answer": "meat"
+   },
+   {
+    "word": "clean",
+    "pos": "Adjective",
+    "definition": "乾淨的",
+    "sentence": "Keep your room ______.",
+    "translation": "保持房間乾淨。",
+    "answer": "clean"
+   },
+   {
+    "word": "team",
+    "pos": "Noun",
+    "definition": "隊伍",
+    "sentence": "Our ______ won the game.",
+    "translation": "我們的隊伍贏了比賽。",
+    "answer": "team"
+   },
+   {
+    "word": "sea",
+    "pos": "Noun",
+    "definition": "海",
+    "sentence": "Fish live in the ______.",
+    "translation": "魚住在海裡。",
+    "answer": "sea"
    }
   ]
  },
@@ -3415,6 +3527,62 @@ const PHONICS_RULES = [
     "sentence": "______ the ball to me!",
     "translation": "把球丟給我！",
     "answer": "throw"
+   },
+   {
+    "word": "loaf",
+    "pos": "Noun",
+    "definition": "一條（麵包）",
+    "sentence": "Buy a ______ of bread.",
+    "translation": "買一條麵包。",
+    "answer": "loaf"
+   },
+   {
+    "word": "toad",
+    "pos": "Noun",
+    "definition": "蟾蜍",
+    "sentence": "A ______ sits on the rock.",
+    "translation": "一隻蟾蜍坐在石頭上。",
+    "answer": "toad"
+   },
+   {
+    "word": "oatmeal",
+    "pos": "Noun",
+    "definition": "燕麥粥",
+    "sentence": "I eat ______ for breakfast.",
+    "translation": "我早餐吃燕麥粥。",
+    "answer": "oatmeal"
+   },
+   {
+    "word": "grow",
+    "pos": "Verb",
+    "definition": "生長",
+    "sentence": "Plants ______ in the sun.",
+    "translation": "植物在陽光下生長。",
+    "answer": "grow"
+   },
+   {
+    "word": "slow",
+    "pos": "Adjective",
+    "definition": "慢的",
+    "sentence": "A snail is ______.",
+    "translation": "蝸牛很慢。",
+    "answer": "slow"
+   },
+   {
+    "word": "rainbow",
+    "pos": "Noun",
+    "definition": "彩虹",
+    "sentence": "I see a ______ after the rain.",
+    "translation": "雨後我看到彩虹。",
+    "answer": "rainbow"
+   },
+   {
+    "word": "blow",
+    "pos": "Verb",
+    "definition": "吹",
+    "sentence": "______ out the candles.",
+    "translation": "吹熄蠟燭。",
+    "answer": "blow"
    }
   ]
  },
@@ -3536,6 +3704,62 @@ const PHONICS_RULES = [
     "sentence": "I hurt my ______ in the race.",
     "translation": "我在賽跑中弄傷了大腿。",
     "answer": "thigh"
+   },
+   {
+    "word": "sigh",
+    "pos": "Verb",
+    "definition": "嘆氣",
+    "sentence": "I ______ when I'm tired.",
+    "translation": "我累的時候會嘆氣。",
+    "answer": "sigh"
+   },
+   {
+    "word": "sight",
+    "pos": "Noun",
+    "definition": "視力；景象",
+    "sentence": "What a beautiful ______!",
+    "translation": "多美的景色啊！",
+    "answer": "sight"
+   },
+   {
+    "word": "knight",
+    "pos": "Noun",
+    "definition": "騎士",
+    "sentence": "The ______ rides a horse.",
+    "translation": "騎士騎著馬。",
+    "answer": "knight"
+   },
+   {
+    "word": "lightning",
+    "pos": "Noun",
+    "definition": "閃電",
+    "sentence": "I see ______ in the sky.",
+    "translation": "我看到天空中有閃電。",
+    "answer": "lightning"
+   },
+   {
+    "word": "frighten",
+    "pos": "Verb",
+    "definition": "使害怕",
+    "sentence": "Don't ______ the baby.",
+    "translation": "不要嚇寶寶。",
+    "answer": "frighten"
+   },
+   {
+    "word": "dried",
+    "pos": "Verb (past)",
+    "definition": "弄乾了",
+    "sentence": "She ______ her hair.",
+    "translation": "她把頭髮吹乾了。",
+    "answer": "dried"
+   },
+   {
+    "word": "tried",
+    "pos": "Verb (past)",
+    "definition": "嘗試了",
+    "sentence": "I ______ my best.",
+    "translation": "我盡力了。",
+    "answer": "tried"
    }
   ]
  },
@@ -3657,6 +3881,62 @@ const PHONICS_RULES = [
     "sentence": "He wears a black ______.",
     "translation": "他穿黑色西裝。",
     "answer": "suit"
+   },
+   {
+    "word": "true",
+    "pos": "Adjective",
+    "definition": "真的",
+    "sentence": "Is the story ______?",
+    "translation": "這個故事是真的嗎？",
+    "answer": "true"
+   },
+   {
+    "word": "Tuesday",
+    "pos": "Noun",
+    "definition": "星期二",
+    "sentence": "We have art class on ______.",
+    "translation": "我們星期二有美術課。",
+    "answer": "Tuesday"
+   },
+   {
+    "word": "blew",
+    "pos": "Verb (past)",
+    "definition": "吹了",
+    "sentence": "The wind ______ my hat away.",
+    "translation": "風把我的帽子吹走了。",
+    "answer": "blew"
+   },
+   {
+    "word": "drew",
+    "pos": "Verb (past)",
+    "definition": "畫了",
+    "sentence": "She ______ a cat.",
+    "translation": "她畫了一隻貓。",
+    "answer": "drew"
+   },
+   {
+    "word": "threw",
+    "pos": "Verb (past)",
+    "definition": "丟了",
+    "sentence": "He ______ the ball to me.",
+    "translation": "他把球丟給我。",
+    "answer": "threw"
+   },
+   {
+    "word": "news",
+    "pos": "Noun",
+    "definition": "新聞",
+    "sentence": "Dad watches the ______ on TV.",
+    "translation": "爸爸看電視新聞。",
+    "answer": "news"
+   },
+   {
+    "word": "cruise",
+    "pos": "Noun",
+    "definition": "郵輪旅行",
+    "sentence": "We went on a ______.",
+    "translation": "我們去搭郵輪旅行。",
+    "answer": "cruise"
    }
   ]
  },
@@ -3778,6 +4058,62 @@ const PHONICS_RULES = [
     "sentence": "A ______ is on the flower.",
     "translation": "一隻蝴蝶在花上。",
     "answer": "butterfly"
+   },
+   {
+    "word": "sly",
+    "pos": "Adjective",
+    "definition": "狡猾的",
+    "sentence": "The fox is ______.",
+    "translation": "狐狸很狡猾。",
+    "answer": "sly"
+   },
+   {
+    "word": "deny",
+    "pos": "Verb",
+    "definition": "否認",
+    "sentence": "He didn't ______ it.",
+    "translation": "他沒有否認。",
+    "answer": "deny"
+   },
+   {
+    "word": "supply",
+    "pos": "Noun",
+    "definition": "用品；供應",
+    "sentence": "Buy school ______ies.",
+    "translation": "買學校用品。",
+    "answer": "supply"
+   },
+   {
+    "word": "dragonfly",
+    "pos": "Noun",
+    "definition": "蜻蜓",
+    "sentence": "A ______ flies over the pond.",
+    "translation": "一隻蜻蜓飛過池塘。",
+    "answer": "dragonfly"
+   },
+   {
+    "word": "firefly",
+    "pos": "Noun",
+    "definition": "螢火蟲",
+    "sentence": "A ______ glows at night.",
+    "translation": "螢火蟲在夜晚發光。",
+    "answer": "firefly"
+   },
+   {
+    "word": "skyline",
+    "pos": "Noun",
+    "definition": "天際線",
+    "sentence": "Look at the city ______.",
+    "translation": "看那城市的天際線。",
+    "answer": "skyline"
+   },
+   {
+    "word": "satisfy",
+    "pos": "Verb",
+    "definition": "使滿意",
+    "sentence": "The food will ______ you.",
+    "translation": "這食物會讓你滿意。",
+    "answer": "satisfy"
    }
   ]
  },
@@ -3899,6 +4235,62 @@ const PHONICS_RULES = [
     "sentence": "Exercise is good for your ______.",
     "translation": "運動對身體好。",
     "answer": "body"
+   },
+   {
+    "word": "sunny",
+    "pos": "Adjective",
+    "definition": "晴朗的",
+    "sentence": "It is ______ today.",
+    "translation": "今天天氣晴朗。",
+    "answer": "sunny"
+   },
+   {
+    "word": "rainy",
+    "pos": "Adjective",
+    "definition": "下雨的",
+    "sentence": "It is a ______ day.",
+    "translation": "今天是下雨天。",
+    "answer": "rainy"
+   },
+   {
+    "word": "city",
+    "pos": "Noun",
+    "definition": "城市",
+    "sentence": "Taipei is a big ______.",
+    "translation": "台北是個大城市。",
+    "answer": "city"
+   },
+   {
+    "word": "story",
+    "pos": "Noun",
+    "definition": "故事",
+    "sentence": "Tell me a ______.",
+    "translation": "告訴我一個故事。",
+    "answer": "story"
+   },
+   {
+    "word": "hungry",
+    "pos": "Adjective",
+    "definition": "餓的",
+    "sentence": "I am ______. Let's eat!",
+    "translation": "我餓了，我們吃飯吧！",
+    "answer": "hungry"
+   },
+   {
+    "word": "angry",
+    "pos": "Adjective",
+    "definition": "生氣的",
+    "sentence": "Don't be ______.",
+    "translation": "別生氣。",
+    "answer": "angry"
+   },
+   {
+    "word": "penny",
+    "pos": "Noun",
+    "definition": "一分錢",
+    "sentence": "I found a ______ on the floor.",
+    "translation": "我在地上撿到一分錢。",
+    "answer": "penny"
    }
   ]
  },
@@ -4020,6 +4412,54 @@ const PHONICS_RULES = [
     "sentence": "The ______ crows in the morning.",
     "translation": "公雞早上會啼叫。",
     "answer": "rooster"
+   },
+   {
+    "word": "room",
+    "pos": "Noun",
+    "definition": "房間",
+    "sentence": "Clean your ______.",
+    "translation": "打掃你的房間。",
+    "answer": "room"
+   },
+   {
+    "word": "cool",
+    "pos": "Adjective",
+    "definition": "涼爽的；酷的",
+    "sentence": "The water is ______.",
+    "translation": "水很涼。",
+    "answer": "cool"
+   },
+   {
+    "word": "kangaroo",
+    "pos": "Noun",
+    "definition": "袋鼠",
+    "sentence": "A ______ can jump high.",
+    "translation": "袋鼠能跳很高。",
+    "answer": "kangaroo"
+   },
+   {
+    "word": "igloo",
+    "pos": "Noun",
+    "definition": "冰屋",
+    "sentence": "The ______ is made of ice.",
+    "translation": "冰屋是冰做的。",
+    "answer": "igloo"
+   },
+   {
+    "word": "raccoon",
+    "pos": "Noun",
+    "definition": "浣熊",
+    "sentence": "A ______ has a striped tail.",
+    "translation": "浣熊有條紋尾巴。",
+    "answer": "raccoon"
+   },
+   {
+    "word": "shampoo",
+    "pos": "Noun",
+    "definition": "洗髮精",
+    "sentence": "Wash your hair with ______.",
+    "translation": "用洗髮精洗頭。",
+    "answer": "shampoo"
    }
   ]
  },
@@ -4141,6 +4581,62 @@ const PHONICS_RULES = [
     "sentence": "He ______ my hand.",
     "translation": "他和我握手。",
     "answer": "shook"
+   },
+   {
+    "word": "cookbook",
+    "pos": "Noun",
+    "definition": "食譜",
+    "sentence": "Mom reads a ______.",
+    "translation": "媽媽在看食譜。",
+    "answer": "cookbook"
+   },
+   {
+    "word": "woodpecker",
+    "pos": "Noun",
+    "definition": "啄木鳥",
+    "sentence": "A ______ pecks the tree.",
+    "translation": "啄木鳥在啄樹。",
+    "answer": "woodpecker"
+   },
+   {
+    "word": "notebook",
+    "pos": "Noun",
+    "definition": "筆記本",
+    "sentence": "Write it in your ______.",
+    "translation": "把它寫在筆記本裡。",
+    "answer": "notebook"
+   },
+   {
+    "word": "crooked",
+    "pos": "Adjective",
+    "definition": "彎曲的",
+    "sentence": "The line is ______.",
+    "translation": "這條線歪歪的。",
+    "answer": "crooked"
+   },
+   {
+    "word": "brook",
+    "pos": "Noun",
+    "definition": "小溪",
+    "sentence": "Fish swim in the ______.",
+    "translation": "魚在小溪裡游。",
+    "answer": "brook"
+   },
+   {
+    "word": "hoof",
+    "pos": "Noun",
+    "definition": "蹄",
+    "sentence": "The horse hurt its ______.",
+    "translation": "那匹馬弄傷了牠的蹄。",
+    "answer": "hoof"
+   },
+   {
+    "word": "bookcase",
+    "pos": "Noun",
+    "definition": "書櫃",
+    "sentence": "Put the book on the ______.",
+    "translation": "把書放在書櫃上。",
+    "answer": "bookcase"
    }
   ]
  },
@@ -4262,6 +4758,62 @@ const PHONICS_RULES = [
     "sentence": "I'm tired. Let's stay home ______.",
     "translation": "我累了，我們改待在家吧。",
     "answer": "instead"
+   },
+   {
+    "word": "dead",
+    "pos": "Adjective",
+    "definition": "死的",
+    "sentence": "The plant is ______.",
+    "translation": "這棵植物死了。",
+    "answer": "dead"
+   },
+   {
+    "word": "breath",
+    "pos": "Noun",
+    "definition": "呼吸",
+    "sentence": "Take a deep ______.",
+    "translation": "深呼吸。",
+    "answer": "breath"
+   },
+   {
+    "word": "sweat",
+    "pos": "Noun",
+    "definition": "汗",
+    "sentence": "______ runs down my face.",
+    "translation": "汗從我臉上流下來。",
+    "answer": "sweat"
+   },
+   {
+    "word": "headache",
+    "pos": "Noun",
+    "definition": "頭痛",
+    "sentence": "I have a ______.",
+    "translation": "我頭痛。",
+    "answer": "headache"
+   },
+   {
+    "word": "pleasant",
+    "pos": "Adjective",
+    "definition": "令人愉快的",
+    "sentence": "What a ______ day!",
+    "translation": "多愉快的一天！",
+    "answer": "pleasant"
+   },
+   {
+    "word": "wealthy",
+    "pos": "Adjective",
+    "definition": "富有的",
+    "sentence": "The man is very ______.",
+    "translation": "那個人非常有錢。",
+    "answer": "wealthy"
+   },
+   {
+    "word": "treasure",
+    "pos": "Noun",
+    "definition": "寶藏",
+    "sentence": "We found ______!",
+    "translation": "我們找到寶藏了！",
+    "answer": "treasure"
    }
   ]
  },
@@ -6030,6 +6582,54 @@ const PHONICS_RULES = [
     "sentence": "Close the ______, please.",
     "translation": "請拉上窗簾。",
     "answer": "curtain"
+   },
+   {
+    "word": "burger",
+    "pos": "Noun",
+    "definition": "漢堡",
+    "sentence": "I want a cheese ______.",
+    "translation": "我要一個起司漢堡。",
+    "answer": "burger"
+   },
+   {
+    "word": "burp",
+    "pos": "Verb",
+    "definition": "打嗝",
+    "sentence": "Don't ______ at the table.",
+    "translation": "不要在餐桌上打嗝。",
+    "answer": "burp"
+   },
+   {
+    "word": "Saturday",
+    "pos": "Noun",
+    "definition": "星期六",
+    "sentence": "We sleep late on ______.",
+    "translation": "星期六我們睡晚一點。",
+    "answer": "Saturday"
+   },
+   {
+    "word": "surprise",
+    "pos": "Noun",
+    "definition": "驚喜",
+    "sentence": "This gift is a ______!",
+    "translation": "這份禮物是個驚喜！",
+    "answer": "surprise"
+   },
+   {
+    "word": "burst",
+    "pos": "Verb",
+    "definition": "爆開",
+    "sentence": "The balloon will ______.",
+    "translation": "氣球會爆掉。",
+    "answer": "burst"
+   },
+   {
+    "word": "curve",
+    "pos": "Noun",
+    "definition": "彎道",
+    "sentence": "Slow down at the ______.",
+    "translation": "在彎道減速。",
+    "answer": "curve"
    }
   ]
  },
@@ -6352,6 +6952,62 @@ const PHONICS_RULES = [
     "sentence": "We play on the basketball ______.",
     "translation": "我們在籃球場打球。",
     "answer": "court"
+   },
+   {
+    "word": "store",
+    "pos": "Noun",
+    "definition": "商店",
+    "sentence": "I buy milk at the ______.",
+    "translation": "我在商店買牛奶。",
+    "answer": "store"
+   },
+   {
+    "word": "score",
+    "pos": "Noun",
+    "definition": "分數",
+    "sentence": "What's your ______?",
+    "translation": "你得幾分？",
+    "answer": "score"
+   },
+   {
+    "word": "core",
+    "pos": "Noun",
+    "definition": "果核",
+    "sentence": "Throw the apple ______ away.",
+    "translation": "把蘋果核丟掉。",
+    "answer": "core"
+   },
+   {
+    "word": "sore",
+    "pos": "Adjective",
+    "definition": "痠痛的",
+    "sentence": "My legs are ______.",
+    "translation": "我的腿很痠。",
+    "answer": "sore"
+   },
+   {
+    "word": "soar",
+    "pos": "Verb",
+    "definition": "翱翔",
+    "sentence": "Eagles ______ in the sky.",
+    "translation": "老鷹在天空翱翔。",
+    "answer": "soar"
+   },
+   {
+    "word": "keyboard",
+    "pos": "Noun",
+    "definition": "鍵盤",
+    "sentence": "Type on the ______.",
+    "translation": "在鍵盤上打字。",
+    "answer": "keyboard"
+   },
+   {
+    "word": "course",
+    "pos": "Noun",
+    "definition": "課程；路線",
+    "sentence": "I take a cooking ______.",
+    "translation": "我上烹飪課。",
+    "answer": "course"
    }
   ]
  },
@@ -6473,6 +7129,62 @@ const PHONICS_RULES = [
     "sentence": "______ a jacket. It's cold.",
     "translation": "穿件夾克，很冷。",
     "answer": "wear"
+   },
+   {
+    "word": "air",
+    "pos": "Noun",
+    "definition": "空氣",
+    "sentence": "We need fresh ______.",
+    "translation": "我們需要新鮮空氣。",
+    "answer": "air"
+   },
+   {
+    "word": "stair",
+    "pos": "Noun",
+    "definition": "台階",
+    "sentence": "Don't sit on the ______s.",
+    "translation": "不要坐在樓梯上。",
+    "answer": "stair"
+   },
+   {
+    "word": "hare",
+    "pos": "Noun",
+    "definition": "野兔",
+    "sentence": "The ______ runs fast.",
+    "translation": "野兔跑得很快。",
+    "answer": "hare"
+   },
+   {
+    "word": "bare",
+    "pos": "Adjective",
+    "definition": "赤裸的",
+    "sentence": "Don't walk with ______ feet.",
+    "translation": "不要赤腳走路。",
+    "answer": "bare"
+   },
+   {
+    "word": "compare",
+    "pos": "Verb",
+    "definition": "比較",
+    "sentence": "______ the two pictures.",
+    "translation": "比較這兩張圖。",
+    "answer": "compare"
+   },
+   {
+    "word": "careful",
+    "pos": "Adjective",
+    "definition": "小心的",
+    "sentence": "Be ______! It's hot.",
+    "translation": "小心！很燙。",
+    "answer": "careful"
+   },
+   {
+    "word": "swear",
+    "pos": "Verb",
+    "definition": "發誓",
+    "sentence": "I ______ it's true.",
+    "translation": "我發誓這是真的。",
+    "answer": "swear"
    }
   ]
  },
@@ -6594,6 +7306,62 @@ const PHONICS_RULES = [
     "sentence": "My mom is an ______.",
     "translation": "我媽媽是工程師。",
     "answer": "engineer"
+   },
+   {
+    "word": "tear",
+    "pos": "Noun",
+    "definition": "眼淚",
+    "sentence": "A ______ runs down her face.",
+    "translation": "一滴淚從她臉上流下。",
+    "answer": "tear"
+   },
+   {
+    "word": "gear",
+    "pos": "Noun",
+    "definition": "裝備",
+    "sentence": "Bring your camping ______.",
+    "translation": "帶上你的露營裝備。",
+    "answer": "gear"
+   },
+   {
+    "word": "peer",
+    "pos": "Noun",
+    "definition": "同儕",
+    "sentence": "Help your ______s.",
+    "translation": "幫助你的同儕。",
+    "answer": "peer"
+   },
+   {
+    "word": "sneer",
+    "pos": "Verb",
+    "definition": "冷笑",
+    "sentence": "Don't ______ at others.",
+    "translation": "不要嘲笑別人。",
+    "answer": "sneer"
+   },
+   {
+    "word": "reindeer",
+    "pos": "Noun",
+    "definition": "馴鹿",
+    "sentence": "Santa's ______ can fly.",
+    "translation": "聖誕老人的馴鹿會飛。",
+    "answer": "reindeer"
+   },
+   {
+    "word": "volunteer",
+    "pos": "Noun",
+    "definition": "志工",
+    "sentence": "She is a ______ at the library.",
+    "translation": "她是圖書館的志工。",
+    "answer": "volunteer"
+   },
+   {
+    "word": "appear",
+    "pos": "Verb",
+    "definition": "出現",
+    "sentence": "The moon will ______ soon.",
+    "translation": "月亮很快就會出現。",
+    "answer": "appear"
    }
   ]
  },
@@ -6715,6 +7483,62 @@ const PHONICS_RULES = [
     "sentence": "Finish your ______ first.",
     "translation": "先寫完功課。",
     "answer": "homework"
+   },
+   {
+    "word": "wardrobe",
+    "pos": "Noun",
+    "definition": "衣櫃",
+    "sentence": "My clothes are in the ______.",
+    "translation": "我的衣服在衣櫃裡。",
+    "answer": "wardrobe"
+   },
+   {
+    "word": "warmth",
+    "pos": "Noun",
+    "definition": "溫暖",
+    "sentence": "I feel the ______ of the sun.",
+    "translation": "我感受到陽光的溫暖。",
+    "answer": "warmth"
+   },
+   {
+    "word": "award",
+    "pos": "Noun",
+    "definition": "獎項",
+    "sentence": "She won an ______.",
+    "translation": "她得了一個獎。",
+    "answer": "award"
+   },
+   {
+    "word": "toward",
+    "pos": "Prep",
+    "definition": "朝向",
+    "sentence": "Walk ______ the door.",
+    "translation": "朝門口走。",
+    "answer": "toward"
+   },
+   {
+    "word": "worker",
+    "pos": "Noun",
+    "definition": "工人",
+    "sentence": "The ______ builds a house.",
+    "translation": "工人在蓋房子。",
+    "answer": "worker"
+   },
+   {
+    "word": "worry",
+    "pos": "Verb",
+    "definition": "擔心",
+    "sentence": "Don't ______. It's OK.",
+    "translation": "別擔心，沒事的。",
+    "answer": "worry"
+   },
+   {
+    "word": "worst",
+    "pos": "Adjective",
+    "definition": "最糟的",
+    "sentence": "This is the ______ day ever!",
+    "translation": "這是有史以來最糟的一天！",
+    "answer": "worst"
    }
   ]
  },
@@ -7326,6 +8150,62 @@ const PHONICS_RULES = [
     "sentence": "What ______ of ice cream do you like?",
     "translation": "你喜歡什麼口味的冰淇淋？",
     "answer": "flavor"
+   },
+   {
+    "word": "flight",
+    "pos": "Noun",
+    "definition": "班機",
+    "sentence": "Our ______ is at ten.",
+    "translation": "我們的班機十點起飛。",
+    "answer": "flight"
+   },
+   {
+    "word": "flamingo",
+    "pos": "Noun",
+    "definition": "紅鶴",
+    "sentence": "A ______ is pink.",
+    "translation": "紅鶴是粉紅色的。",
+    "answer": "flamingo"
+   },
+   {
+    "word": "flipper",
+    "pos": "Noun",
+    "definition": "鰭狀肢；蛙鞋",
+    "sentence": "A seal has ______s.",
+    "translation": "海豹有鰭狀肢。",
+    "answer": "flipper"
+   },
+   {
+    "word": "flock",
+    "pos": "Noun",
+    "definition": "（鳥、羊）群",
+    "sentence": "A ______ of birds flies south.",
+    "translation": "一群鳥往南飛。",
+    "answer": "flock"
+   },
+   {
+    "word": "flex",
+    "pos": "Verb",
+    "definition": "彎曲；展示肌肉",
+    "sentence": "______ your arm.",
+    "translation": "彎曲你的手臂。",
+    "answer": "flex"
+   },
+   {
+    "word": "fleece",
+    "pos": "Noun",
+    "definition": "刷毛外套；羊毛",
+    "sentence": "I wear a warm ______ jacket.",
+    "translation": "我穿一件保暖的刷毛外套。",
+    "answer": "fleece"
+   },
+   {
+    "word": "flutter",
+    "pos": "Verb",
+    "definition": "拍動（翅膀）",
+    "sentence": "Butterflies ______ their wings.",
+    "translation": "蝴蝶拍動翅膀。",
+    "answer": "flutter"
    }
   ]
  },
@@ -7447,6 +8327,62 @@ const PHONICS_RULES = [
     "sentence": "Her eyes ______ with joy.",
     "translation": "她的眼睛閃耀著喜悅。",
     "answer": "gleam"
+   },
+   {
+    "word": "glare",
+    "pos": "Verb",
+    "definition": "怒目而視",
+    "sentence": "Don't ______ at me.",
+    "translation": "不要瞪我。",
+    "answer": "glare"
+   },
+   {
+    "word": "glum",
+    "pos": "Adjective",
+    "definition": "悶悶不樂的",
+    "sentence": "He looks ______ today.",
+    "translation": "他今天看起來悶悶不樂。",
+    "answer": "glum"
+   },
+   {
+    "word": "glossy",
+    "pos": "Adjective",
+    "definition": "有光澤的",
+    "sentence": "The paper is ______.",
+    "translation": "這張紙很亮。",
+    "answer": "glossy"
+   },
+   {
+    "word": "glaze",
+    "pos": "Noun",
+    "definition": "糖霜",
+    "sentence": "The donut has pink ______.",
+    "translation": "甜甜圈有粉紅色糖霜。",
+    "answer": "glaze"
+   },
+   {
+    "word": "glimpse",
+    "pos": "Noun",
+    "definition": "一瞥",
+    "sentence": "I caught a ______ of the star.",
+    "translation": "我瞥見那位明星。",
+    "answer": "glimpse"
+   },
+   {
+    "word": "igloo",
+    "pos": "Noun",
+    "definition": "冰屋",
+    "sentence": "Eskimos live in an ______.",
+    "translation": "愛斯基摩人住在冰屋裡。",
+    "answer": "igloo"
+   },
+   {
+    "word": "glue stick",
+    "pos": "Noun",
+    "definition": "口紅膠",
+    "sentence": "Use a ______ for paper.",
+    "translation": "紙用口紅膠黏。",
+    "answer": "glue stick"
    }
   ]
  },
@@ -8532,6 +9468,62 @@ const PHONICS_RULES = [
     "sentence": "Use a ______ towel.",
     "translation": "用一條乾毛巾。",
     "answer": "dry"
+   },
+   {
+    "word": "drawing",
+    "pos": "Noun",
+    "definition": "圖畫",
+    "sentence": "Look at my ______!",
+    "translation": "看我的畫！",
+    "answer": "drawing"
+   },
+   {
+    "word": "dragonfly",
+    "pos": "Noun",
+    "definition": "蜻蜓",
+    "sentence": "A ______ has four wings.",
+    "translation": "蜻蜓有四片翅膀。",
+    "answer": "dragonfly"
+   },
+   {
+    "word": "drain",
+    "pos": "Noun",
+    "definition": "排水管",
+    "sentence": "Hair is in the ______.",
+    "translation": "頭髮卡在排水管裡。",
+    "answer": "drain"
+   },
+   {
+    "word": "drown",
+    "pos": "Verb",
+    "definition": "溺水",
+    "sentence": "Don't swim alone. You may ______.",
+    "translation": "不要單獨游泳，你可能會溺水。",
+    "answer": "drown"
+   },
+   {
+    "word": "dresser",
+    "pos": "Noun",
+    "definition": "梳妝台",
+    "sentence": "Her comb is on the ______.",
+    "translation": "她的梳子在梳妝台上。",
+    "answer": "dresser"
+   },
+   {
+    "word": "drowsy",
+    "pos": "Adjective",
+    "definition": "昏昏欲睡的",
+    "sentence": "I feel ______ after lunch.",
+    "translation": "午餐後我覺得想睡。",
+    "answer": "drowsy"
+   },
+   {
+    "word": "drizzle",
+    "pos": "Noun",
+    "definition": "毛毛雨",
+    "sentence": "It's only a ______.",
+    "translation": "只是毛毛雨。",
+    "answer": "drizzle"
    }
   ]
  },
@@ -8653,6 +9645,54 @@ const PHONICS_RULES = [
     "sentence": "There is ______ on the grass.",
     "translation": "草地上有霜。",
     "answer": "frost"
+   },
+   {
+    "word": "fries",
+    "pos": "Noun",
+    "definition": "薯條",
+    "sentence": "I want ______ with ketchup.",
+    "translation": "我要薯條配番茄醬。",
+    "answer": "fries"
+   },
+   {
+    "word": "frozen",
+    "pos": "Adjective",
+    "definition": "冷凍的",
+    "sentence": "The lake is ______.",
+    "translation": "湖結冰了。",
+    "answer": "frozen"
+   },
+   {
+    "word": "frighten",
+    "pos": "Verb",
+    "definition": "使驚嚇",
+    "sentence": "The loud noise will ______ the cat.",
+    "translation": "大聲響會嚇到貓。",
+    "answer": "frighten"
+   },
+   {
+    "word": "freckle",
+    "pos": "Noun",
+    "definition": "雀斑",
+    "sentence": "She has ______s on her nose.",
+    "translation": "她的鼻子上有雀斑。",
+    "answer": "freckle"
+   },
+   {
+    "word": "fragile",
+    "pos": "Adjective",
+    "definition": "易碎的",
+    "sentence": "The glass is ______.",
+    "translation": "這個玻璃很易碎。",
+    "answer": "fragile"
+   },
+   {
+    "word": "frosting",
+    "pos": "Noun",
+    "definition": "糖霜",
+    "sentence": "The cake has chocolate ______.",
+    "translation": "蛋糕上有巧克力糖霜。",
+    "answer": "frosting"
    }
   ]
  },
@@ -8774,6 +9814,54 @@ const PHONICS_RULES = [
     "sentence": "______ your bag. Let's go!",
     "translation": "拿起你的包包，走吧！",
     "answer": "grab"
+   },
+   {
+    "word": "grandpa",
+    "pos": "Noun",
+    "definition": "爺爺；外公",
+    "sentence": "My ______ tells funny stories.",
+    "translation": "我爺爺會講好笑的故事。",
+    "answer": "grandpa"
+   },
+   {
+    "word": "grasshopper",
+    "pos": "Noun",
+    "definition": "蚱蜢",
+    "sentence": "A ______ jumps in the grass.",
+    "translation": "蚱蜢在草地上跳。",
+    "answer": "grasshopper"
+   },
+   {
+    "word": "grocery",
+    "pos": "Noun",
+    "definition": "雜貨",
+    "sentence": "Mom buys ______ies at the store.",
+    "translation": "媽媽在店裡買雜貨。",
+    "answer": "grocery"
+   },
+   {
+    "word": "greedy",
+    "pos": "Adjective",
+    "definition": "貪心的",
+    "sentence": "Don't be ______. Share it.",
+    "translation": "別貪心，分享吧。",
+    "answer": "greedy"
+   },
+   {
+    "word": "grumpy",
+    "pos": "Adjective",
+    "definition": "脾氣暴躁的",
+    "sentence": "He is ______ in the morning.",
+    "translation": "他早上脾氣很差。",
+    "answer": "grumpy"
+   },
+   {
+    "word": "gravy",
+    "pos": "Noun",
+    "definition": "肉汁",
+    "sentence": "Put ______ on the potatoes.",
+    "translation": "在馬鈴薯上淋肉汁。",
+    "answer": "gravy"
    }
   ]
  },
@@ -9144,6 +10232,62 @@ const PHONICS_RULES = [
     "sentence": "We hike on a mountain ______.",
     "translation": "我們在山間小徑健行。",
     "answer": "trail"
+   },
+   {
+    "word": "tray",
+    "pos": "Noun",
+    "definition": "托盤",
+    "sentence": "Put the cups on the ______.",
+    "translation": "把杯子放在托盤上。",
+    "answer": "tray"
+   },
+   {
+    "word": "trash",
+    "pos": "Noun",
+    "definition": "垃圾",
+    "sentence": "Take out the ______.",
+    "translation": "把垃圾拿出去。",
+    "answer": "trash"
+   },
+   {
+    "word": "travel",
+    "pos": "Verb",
+    "definition": "旅行",
+    "sentence": "I want to ______ to Japan.",
+    "translation": "我想去日本旅行。",
+    "answer": "travel"
+   },
+   {
+    "word": "trunk",
+    "pos": "Noun",
+    "definition": "象鼻；後車廂",
+    "sentence": "An elephant has a long ______.",
+    "translation": "大象有長鼻子。",
+    "answer": "trunk"
+   },
+   {
+    "word": "trust",
+    "pos": "Verb",
+    "definition": "信任",
+    "sentence": "I ______ my best friend.",
+    "translation": "我信任我最好的朋友。",
+    "answer": "trust"
+   },
+   {
+    "word": "tribe",
+    "pos": "Noun",
+    "definition": "部落",
+    "sentence": "The ______ lives in the forest.",
+    "translation": "那個部落住在森林裡。",
+    "answer": "tribe"
+   },
+   {
+    "word": "trailer",
+    "pos": "Noun",
+    "definition": "預告片；拖車",
+    "sentence": "Let's watch the movie ______.",
+    "translation": "我們來看電影預告片吧。",
+    "answer": "trailer"
    }
   ]
  },
@@ -10695,6 +11839,54 @@ const PHONICS_RULES = [
     "sentence": "December is the ______ month.",
     "translation": "十二月是第十二個月。",
     "answer": "twelfth"
+   },
+   {
+    "word": "twins",
+    "pos": "Noun",
+    "definition": "雙胞胎",
+    "sentence": "The ______ look the same.",
+    "translation": "那對雙胞胎長得一樣。",
+    "answer": "twins"
+   },
+   {
+    "word": "tweed",
+    "pos": "Noun",
+    "definition": "粗呢",
+    "sentence": "Grandpa has a ______ jacket.",
+    "translation": "爺爺有一件粗呢夾克。",
+    "answer": "tweed"
+   },
+   {
+    "word": "twitch",
+    "pos": "Verb",
+    "definition": "抽動",
+    "sentence": "My eye ______es when I'm tired.",
+    "translation": "我累的時候眼睛會抽動。",
+    "answer": "twitch"
+   },
+   {
+    "word": "tweak",
+    "pos": "Verb",
+    "definition": "稍微調整",
+    "sentence": "______ the picture a little.",
+    "translation": "把圖片稍微調整一下。",
+    "answer": "tweak"
+   },
+   {
+    "word": "twinkling",
+    "pos": "Adjective",
+    "definition": "閃爍的",
+    "sentence": "Look at the ______ stars.",
+    "translation": "看那閃爍的星星。",
+    "answer": "twinkling"
+   },
+   {
+    "word": "twentieth",
+    "pos": "Number",
+    "definition": "第二十",
+    "sentence": "Today is my ______ birthday.",
+    "translation": "今天是我二十歲生日。",
+    "answer": "twentieth"
    }
   ]
  },
@@ -11041,6 +12233,62 @@ const PHONICS_RULES = [
     "sentence": "What a ______ view!",
     "translation": "多棒的景色啊！",
     "answer": "splendid"
+   },
+   {
+    "word": "sprinkles",
+    "pos": "Noun",
+    "definition": "彩色糖粒",
+    "sentence": "I want ______ on my ice cream.",
+    "translation": "我的冰淇淋要加彩色糖粒。",
+    "answer": "sprinkles"
+   },
+   {
+    "word": "spree",
+    "pos": "Noun",
+    "definition": "狂買",
+    "sentence": "They went on a shopping ______.",
+    "translation": "他們去瘋狂購物。",
+    "answer": "spree"
+   },
+   {
+    "word": "springboard",
+    "pos": "Noun",
+    "definition": "跳板",
+    "sentence": "Jump off the ______.",
+    "translation": "從跳板跳下去。",
+    "answer": "springboard"
+   },
+   {
+    "word": "splashing",
+    "pos": "Verb",
+    "definition": "潑水",
+    "sentence": "The kids are ______ in the pool.",
+    "translation": "孩子們在泳池裡潑水。",
+    "answer": "splashing"
+   },
+   {
+    "word": "splint",
+    "pos": "Noun",
+    "definition": "夾板",
+    "sentence": "The doctor put a ______ on my finger.",
+    "translation": "醫生在我手指上放了夾板。",
+    "answer": "splint"
+   },
+   {
+    "word": "splatter",
+    "pos": "Verb",
+    "definition": "噴濺",
+    "sentence": "Don't ______ paint on the floor.",
+    "translation": "不要把顏料濺到地板上。",
+    "answer": "splatter"
+   },
+   {
+    "word": "splendor",
+    "pos": "Noun",
+    "definition": "壯麗",
+    "sentence": "We saw the ______ of the mountains.",
+    "translation": "我們看到山的壯麗。",
+    "answer": "splendor"
    }
   ]
  },
@@ -11162,6 +12410,62 @@ const PHONICS_RULES = [
     "sentence": "Let's ______ in the park.",
     "translation": "我們去公園散步吧。",
     "answer": "stroll"
+   },
+   {
+    "word": "strap",
+    "pos": "Noun",
+    "definition": "帶子",
+    "sentence": "The bag ______ is broken.",
+    "translation": "包包的帶子斷了。",
+    "answer": "strap"
+   },
+   {
+    "word": "stray",
+    "pos": "Adjective",
+    "definition": "走失的；流浪的",
+    "sentence": "We feed a ______ cat.",
+    "translation": "我們餵一隻流浪貓。",
+    "answer": "stray"
+   },
+   {
+    "word": "strength",
+    "pos": "Noun",
+    "definition": "力量",
+    "sentence": "He has great ______.",
+    "translation": "他力氣很大。",
+    "answer": "strength"
+   },
+   {
+    "word": "stroller",
+    "pos": "Noun",
+    "definition": "嬰兒車",
+    "sentence": "The baby sleeps in the ______.",
+    "translation": "寶寶在嬰兒車裡睡覺。",
+    "answer": "stroller"
+   },
+   {
+    "word": "structure",
+    "pos": "Noun",
+    "definition": "結構",
+    "sentence": "The bridge has a strong ______.",
+    "translation": "這座橋結構很堅固。",
+    "answer": "structure"
+   },
+   {
+    "word": "stretcher",
+    "pos": "Noun",
+    "definition": "擔架",
+    "sentence": "They carry him on a ______.",
+    "translation": "他們用擔架抬他。",
+    "answer": "stretcher"
+   },
+   {
+    "word": "straight",
+    "pos": "Adjective",
+    "definition": "直的",
+    "sentence": "Draw a ______ line.",
+    "translation": "畫一條直線。",
+    "answer": "straight"
    }
   ]
  },
@@ -11283,6 +12587,62 @@ const PHONICS_RULES = [
     "sentence": "______ down and touch the floor.",
     "translation": "蹲下摸地板。",
     "answer": "squat"
+   },
+   {
+    "word": "quarter",
+    "pos": "Noun",
+    "definition": "二十五分硬幣；四分之一",
+    "sentence": "I have a ______ in my pocket.",
+    "translation": "我口袋裡有一枚二十五分硬幣。",
+    "answer": "quarter"
+   },
+   {
+    "word": "quail",
+    "pos": "Noun",
+    "definition": "鵪鶉",
+    "sentence": "A ______ is a small bird.",
+    "translation": "鵪鶉是一種小鳥。",
+    "answer": "quail"
+   },
+   {
+    "word": "quit",
+    "pos": "Verb",
+    "definition": "放棄；停止",
+    "sentence": "Don't ______. Keep trying!",
+    "translation": "別放棄，繼續努力！",
+    "answer": "quit"
+   },
+   {
+    "word": "quarrel",
+    "pos": "Verb",
+    "definition": "吵架",
+    "sentence": "Don't ______ with your sister.",
+    "translation": "不要跟你姊姊吵架。",
+    "answer": "quarrel"
+   },
+   {
+    "word": "squirt",
+    "pos": "Verb",
+    "definition": "噴出",
+    "sentence": "______ water with the gun.",
+    "translation": "用水槍噴水。",
+    "answer": "squirt"
+   },
+   {
+    "word": "squawk",
+    "pos": "Verb",
+    "definition": "（鳥）尖叫",
+    "sentence": "The parrot ______s loudly.",
+    "translation": "鸚鵡大聲尖叫。",
+    "answer": "squawk"
+   },
+   {
+    "word": "squeal",
+    "pos": "Verb",
+    "definition": "尖叫",
+    "sentence": "The pigs ______.",
+    "translation": "小豬尖叫。",
+    "answer": "squeal"
    }
   ]
  },
@@ -11404,6 +12764,54 @@ const PHONICS_RULES = [
     "sentence": "He ______s and says \"I don't know.\"",
     "translation": "他聳聳肩說「我不知道」。",
     "answer": "shrug"
+   },
+   {
+    "word": "thrifty",
+    "pos": "Adjective",
+    "definition": "節儉的",
+    "sentence": "Grandma is very ______.",
+    "translation": "奶奶非常節儉。",
+    "answer": "thrifty"
+   },
+   {
+    "word": "thrust",
+    "pos": "Verb",
+    "definition": "猛推",
+    "sentence": "He ______s the door open.",
+    "translation": "他用力推開門。",
+    "answer": "thrust"
+   },
+   {
+    "word": "threat",
+    "pos": "Noun",
+    "definition": "威脅",
+    "sentence": "Fire is a ______ to the forest.",
+    "translation": "火對森林是一種威脅。",
+    "answer": "threat"
+   },
+   {
+    "word": "shrank",
+    "pos": "Verb (past)",
+    "definition": "縮水了",
+    "sentence": "My sweater ______ in the wash.",
+    "translation": "我的毛衣洗後縮水了。",
+    "answer": "shrank"
+   },
+   {
+    "word": "shrine",
+    "pos": "Noun",
+    "definition": "神社；聖地",
+    "sentence": "We visited a ______ in Kyoto.",
+    "translation": "我們參觀了京都的神社。",
+    "answer": "shrine"
+   },
+   {
+    "word": "shrill",
+    "pos": "Adjective",
+    "definition": "刺耳的",
+    "sentence": "The whistle is ______.",
+    "translation": "哨音很刺耳。",
+    "answer": "shrill"
    }
   ]
  },
@@ -11541,6 +12949,46 @@ const PHONICS_RULES = [
     "sentence": "Put on your seat ______.",
     "translation": "繫上安全帶。",
     "answer": "belt"
+   },
+   {
+    "word": "band",
+    "pos": "Noun",
+    "definition": "樂團",
+    "sentence": "My brother plays in a ______.",
+    "translation": "我哥哥在樂團演奏。",
+    "answer": "band"
+   },
+   {
+    "word": "pump",
+    "pos": "Noun",
+    "definition": "打氣筒",
+    "sentence": "Use a ______ for the tire.",
+    "translation": "用打氣筒幫輪胎打氣。",
+    "answer": "pump"
+   },
+   {
+    "word": "chest",
+    "pos": "Noun",
+    "definition": "胸部；箱子",
+    "sentence": "The pirate has a treasure ______.",
+    "translation": "海盜有一個寶箱。",
+    "answer": "chest"
+   },
+   {
+    "word": "raft",
+    "pos": "Noun",
+    "definition": "木筏",
+    "sentence": "We row a ______ on the river.",
+    "translation": "我們在河上划木筏。",
+    "answer": "raft"
+   },
+   {
+    "word": "quilt",
+    "pos": "Noun",
+    "definition": "被子",
+    "sentence": "The ______ is warm.",
+    "translation": "被子很暖和。",
+    "answer": "quilt"
    }
   ]
  },
@@ -12650,6 +14098,62 @@ const PHONICS_RULES = [
     "sentence": "Grandpa uses a ______.",
     "translation": "爺爺坐輪椅。",
     "answer": "wheelchair"
+   },
+   {
+    "word": "whisk",
+    "pos": "Noun",
+    "definition": "打蛋器",
+    "sentence": "Mix the eggs with a ______.",
+    "translation": "用打蛋器攪拌蛋。",
+    "answer": "whisk"
+   },
+   {
+    "word": "wheelbarrow",
+    "pos": "Noun",
+    "definition": "獨輪手推車",
+    "sentence": "The farmer pushes a ______.",
+    "translation": "農夫推著手推車。",
+    "answer": "wheelbarrow"
+   },
+   {
+    "word": "whirl",
+    "pos": "Verb",
+    "definition": "旋轉",
+    "sentence": "The leaves ______ in the wind.",
+    "translation": "葉子在風中旋轉。",
+    "answer": "whirl"
+   },
+   {
+    "word": "whiteboard",
+    "pos": "Noun",
+    "definition": "白板",
+    "sentence": "Write on the ______.",
+    "translation": "在白板上寫字。",
+    "answer": "whiteboard"
+   },
+   {
+    "word": "whimper",
+    "pos": "Verb",
+    "definition": "嗚咽",
+    "sentence": "The puppy ______s at night.",
+    "translation": "小狗晚上會嗚咽。",
+    "answer": "whimper"
+   },
+   {
+    "word": "whine",
+    "pos": "Verb",
+    "definition": "抱怨；哀鳴",
+    "sentence": "Stop ______ing!",
+    "translation": "不要再抱怨了！",
+    "answer": "whine"
+   },
+   {
+    "word": "wheeze",
+    "pos": "Verb",
+    "definition": "喘息",
+    "sentence": "I ______ when I run fast.",
+    "translation": "我跑快時會喘。",
+    "answer": "wheeze"
    }
   ]
  },
@@ -12763,6 +14267,62 @@ const PHONICS_RULES = [
     "sentence": "He holds the gold ______.",
     "translation": "他拿著金色獎盃。",
     "answer": "trophy"
+   },
+   {
+    "word": "photograph",
+    "pos": "Noun",
+    "definition": "照片",
+    "sentence": "This ______ is old.",
+    "translation": "這張照片很舊。",
+    "answer": "photograph"
+   },
+   {
+    "word": "photographer",
+    "pos": "Noun",
+    "definition": "攝影師",
+    "sentence": "The ______ takes our picture.",
+    "translation": "攝影師幫我們拍照。",
+    "answer": "photographer"
+   },
+   {
+    "word": "pheasant",
+    "pos": "Noun",
+    "definition": "雉雞",
+    "sentence": "A ______ has long tail feathers.",
+    "translation": "雉雞有長長的尾羽。",
+    "answer": "pheasant"
+   },
+   {
+    "word": "phrase",
+    "pos": "Noun",
+    "definition": "片語",
+    "sentence": "Learn this English ______.",
+    "translation": "學這個英文片語。",
+    "answer": "phrase"
+   },
+   {
+    "word": "sphere",
+    "pos": "Noun",
+    "definition": "球體",
+    "sentence": "A ball is a ______.",
+    "translation": "球是球體。",
+    "answer": "sphere"
+   },
+   {
+    "word": "orphan",
+    "pos": "Noun",
+    "definition": "孤兒",
+    "sentence": "The ______ lives with his aunt.",
+    "translation": "那個孤兒和阿姨住在一起。",
+    "answer": "orphan"
+   },
+   {
+    "word": "physics",
+    "pos": "Noun",
+    "definition": "物理",
+    "sentence": "He studies ______ in college.",
+    "translation": "他在大學讀物理。",
+    "answer": "physics"
    }
   ]
  },
@@ -12884,6 +14444,62 @@ const PHONICS_RULES = [
     "sentence": "My cat is ______.",
     "translation": "我的貓是黑色的。",
     "answer": "black"
+   },
+   {
+    "word": "lock",
+    "pos": "Verb",
+    "definition": "鎖",
+    "sentence": "______ the door at night.",
+    "translation": "晚上要鎖門。",
+    "answer": "lock"
+   },
+   {
+    "word": "snack",
+    "pos": "Noun",
+    "definition": "點心",
+    "sentence": "I eat a ______ after school.",
+    "translation": "我放學後吃點心。",
+    "answer": "snack"
+   },
+   {
+    "word": "stick",
+    "pos": "Noun",
+    "definition": "棍子",
+    "sentence": "The dog plays with a ______.",
+    "translation": "狗在玩一根棍子。",
+    "answer": "stick"
+   },
+   {
+    "word": "quack",
+    "pos": "Verb",
+    "definition": "呱呱叫",
+    "sentence": "The duck says \"______.\"",
+    "translation": "鴨子叫「呱呱」。",
+    "answer": "quack"
+   },
+   {
+    "word": "backpack",
+    "pos": "Noun",
+    "definition": "背包",
+    "sentence": "My ______ is heavy.",
+    "translation": "我的背包很重。",
+    "answer": "backpack"
+   },
+   {
+    "word": "sticker",
+    "pos": "Noun",
+    "definition": "貼紙",
+    "sentence": "I got a star ______.",
+    "translation": "我得到一張星星貼紙。",
+    "answer": "sticker"
+   },
+   {
+    "word": "ticket",
+    "pos": "Noun",
+    "definition": "票",
+    "sentence": "I have a movie ______.",
+    "translation": "我有一張電影票。",
+    "answer": "ticket"
    }
   ]
  },
@@ -13005,6 +14621,62 @@ const PHONICS_RULES = [
     "sentence": "My arm ______es.",
     "translation": "我的手臂好癢。",
     "answer": "itch"
+   },
+   {
+    "word": "hatch",
+    "pos": "Verb",
+    "definition": "孵化",
+    "sentence": "The eggs will ______ soon.",
+    "translation": "蛋很快就會孵化。",
+    "answer": "hatch"
+   },
+   {
+    "word": "stretch",
+    "pos": "Verb",
+    "definition": "伸展",
+    "sentence": "______ your legs.",
+    "translation": "伸展你的腿。",
+    "answer": "stretch"
+   },
+   {
+    "word": "crutch",
+    "pos": "Noun",
+    "definition": "拐杖",
+    "sentence": "He walks with a ______.",
+    "translation": "他拄著拐杖走路。",
+    "answer": "crutch"
+   },
+   {
+    "word": "ketchup",
+    "pos": "Noun",
+    "definition": "番茄醬",
+    "sentence": "I like ______ on my fries.",
+    "translation": "我喜歡在薯條上加番茄醬。",
+    "answer": "ketchup"
+   },
+   {
+    "word": "butcher",
+    "pos": "Noun",
+    "definition": "肉販",
+    "sentence": "The ______ cuts meat.",
+    "translation": "肉販在切肉。",
+    "answer": "butcher"
+   },
+   {
+    "word": "pitcher",
+    "pos": "Noun",
+    "definition": "投手；水壺",
+    "sentence": "The ______ throws the ball.",
+    "translation": "投手投球。",
+    "answer": "pitcher"
+   },
+   {
+    "word": "stopwatch",
+    "pos": "Noun",
+    "definition": "碼錶",
+    "sentence": "Use a ______ for the race.",
+    "translation": "比賽用碼錶計時。",
+    "answer": "stopwatch"
    }
   ]
  },
@@ -13303,6 +14975,78 @@ const PHONICS_RULES = [
     "sentence": "He is __________. __________ driving is dangerous.",
     "translation": "他喝醉了。酒駕很危險",
     "answer": "drunk"
+   },
+   {
+    "word": "sink",
+    "pos": "Noun",
+    "definition": "水槽",
+    "sentence": "Put the dishes in the ______.",
+    "translation": "把碗盤放進水槽。",
+    "answer": "sink"
+   },
+   {
+    "word": "tank",
+    "pos": "Noun",
+    "definition": "水箱；坦克",
+    "sentence": "The fish swim in the ______.",
+    "translation": "魚在水族箱裡游。",
+    "answer": "tank"
+   },
+   {
+    "word": "trunk",
+    "pos": "Noun",
+    "definition": "樹幹；象鼻",
+    "sentence": "The tree ______ is thick.",
+    "translation": "樹幹很粗。",
+    "answer": "trunk"
+   },
+   {
+    "word": "skunk",
+    "pos": "Noun",
+    "definition": "臭鼬",
+    "sentence": "A ______ smells bad.",
+    "translation": "臭鼬很臭。",
+    "answer": "skunk"
+   },
+   {
+    "word": "monkey",
+    "pos": "Noun",
+    "definition": "猴子",
+    "sentence": "The ______ eats bananas.",
+    "translation": "猴子吃香蕉。",
+    "answer": "monkey"
+   },
+   {
+    "word": "blanket",
+    "pos": "Noun",
+    "definition": "毯子",
+    "sentence": "I sleep under a warm ______.",
+    "translation": "我蓋著溫暖的毯子睡覺。",
+    "answer": "blanket"
+   },
+   {
+    "word": "honk",
+    "pos": "Verb",
+    "definition": "按喇叭",
+    "sentence": "Don't ______ the horn.",
+    "translation": "不要按喇叭。",
+    "answer": "honk"
+   },
+   {
+    "word": "chipmunk",
+    "pos": "Noun",
+    "definition": "花栗鼠",
+    "sentence": "A ______ eats nuts.",
+    "translation": "花栗鼠吃堅果。",
+    "answer": "chipmunk"
+   },
+   {
+    "word": "plank",
+    "pos": "Noun",
+    "definition": "木板",
+    "sentence": "Walk on the ______.",
+    "translation": "走在木板上。",
+    "answer": "plank"
    }
   ]
  },
@@ -14147,6 +15891,54 @@ const PHONICS_RULES = [
     "sentence": "Where is the ______?",
     "translation": "出口在哪裡？",
     "answer": "exit"
+   },
+   {
+    "word": "fax",
+    "pos": "Noun",
+    "definition": "傳真",
+    "sentence": "Send me a ______.",
+    "translation": "傳真給我。",
+    "answer": "fax"
+   },
+   {
+    "word": "toolbox",
+    "pos": "Noun",
+    "definition": "工具箱",
+    "sentence": "Dad opens his ______.",
+    "translation": "爸爸打開他的工具箱。",
+    "answer": "toolbox"
+   },
+   {
+    "word": "sandbox",
+    "pos": "Noun",
+    "definition": "沙坑",
+    "sentence": "Kids play in the ______.",
+    "translation": "孩子們在沙坑玩。",
+    "answer": "sandbox"
+   },
+   {
+    "word": "lunchbox",
+    "pos": "Noun",
+    "definition": "便當盒",
+    "sentence": "My ______ is blue.",
+    "translation": "我的便當盒是藍色的。",
+    "answer": "lunchbox"
+   },
+   {
+    "word": "mixer",
+    "pos": "Noun",
+    "definition": "攪拌機",
+    "sentence": "Mom uses a ______ to make cake.",
+    "translation": "媽媽用攪拌機做蛋糕。",
+    "answer": "mixer"
+   },
+   {
+    "word": "expert",
+    "pos": "Noun",
+    "definition": "專家",
+    "sentence": "He is a computer ______.",
+    "translation": "他是電腦專家。",
+    "answer": "expert"
    }
   ]
  },
@@ -14268,6 +16060,62 @@ const PHONICS_RULES = [
     "sentence": "Soda water ______es.",
     "translation": "汽水會冒泡。",
     "answer": "fizz"
+   },
+   {
+    "word": "grass",
+    "pos": "Noun",
+    "definition": "草",
+    "sentence": "The ______ is green.",
+    "translation": "草是綠的。",
+    "answer": "grass"
+   },
+   {
+    "word": "dress",
+    "pos": "Noun",
+    "definition": "洋裝",
+    "sentence": "She wears a red ______.",
+    "translation": "她穿紅色洋裝。",
+    "answer": "dress"
+   },
+   {
+    "word": "glass",
+    "pos": "Noun",
+    "definition": "玻璃杯",
+    "sentence": "I drink a ______ of milk.",
+    "translation": "我喝一杯牛奶。",
+    "answer": "glass"
+   },
+   {
+    "word": "spell",
+    "pos": "Verb",
+    "definition": "拼字",
+    "sentence": "Can you ______ your name?",
+    "translation": "你會拼你的名字嗎？",
+    "answer": "spell"
+   },
+   {
+    "word": "smell",
+    "pos": "Verb",
+    "definition": "聞起來",
+    "sentence": "The flowers ______ good.",
+    "translation": "花聞起來很香。",
+    "answer": "smell"
+   },
+   {
+    "word": "sniff",
+    "pos": "Verb",
+    "definition": "嗅",
+    "sentence": "The dog ______s the shoe.",
+    "translation": "狗嗅那隻鞋。",
+    "answer": "sniff"
+   },
+   {
+    "word": "fuzz",
+    "pos": "Noun",
+    "definition": "絨毛",
+    "sentence": "The peach has ______ on it.",
+    "translation": "桃子上有絨毛。",
+    "answer": "fuzz"
    }
   ]
  },
@@ -14389,6 +16237,62 @@ const PHONICS_RULES = [
     "sentence": "My locker is in the ______.",
     "translation": "我的置物櫃在走廊上。",
     "answer": "hallway"
+   },
+   {
+    "word": "wallet",
+    "pos": "Noun",
+    "definition": "錢包",
+    "sentence": "I lost my ______.",
+    "translation": "我弄丟了錢包。",
+    "answer": "wallet"
+   },
+   {
+    "word": "basketball",
+    "pos": "Noun",
+    "definition": "籃球",
+    "sentence": "Let's play ______.",
+    "translation": "我們來打籃球吧。",
+    "answer": "basketball"
+   },
+   {
+    "word": "football",
+    "pos": "Noun",
+    "definition": "美式足球",
+    "sentence": "He plays ______.",
+    "translation": "他打美式足球。",
+    "answer": "football"
+   },
+   {
+    "word": "meatball",
+    "pos": "Noun",
+    "definition": "肉丸",
+    "sentence": "I like ______ soup.",
+    "translation": "我喜歡肉丸湯。",
+    "answer": "meatball"
+   },
+   {
+    "word": "volleyball",
+    "pos": "Noun",
+    "definition": "排球",
+    "sentence": "We play ______ at the beach.",
+    "translation": "我們在海灘打排球。",
+    "answer": "volleyball"
+   },
+   {
+    "word": "fallen",
+    "pos": "Adjective",
+    "definition": "掉落的",
+    "sentence": "There are ______ leaves on the ground.",
+    "translation": "地上有落葉。",
+    "answer": "fallen"
+   },
+   {
+    "word": "recall",
+    "pos": "Verb",
+    "definition": "回想",
+    "sentence": "I can't ______ his name.",
+    "translation": "我想不起他的名字。",
+    "answer": "recall"
    }
   ]
  },
@@ -14502,6 +16406,62 @@ const PHONICS_RULES = [
     "sentence": "I ______ the answer!",
     "translation": "我知道答案！",
     "answer": "knew"
+   },
+   {
+    "word": "knockout",
+    "pos": "Noun",
+    "definition": "擊倒",
+    "sentence": "He won by a ______.",
+    "translation": "他以擊倒獲勝。",
+    "answer": "knockout"
+   },
+   {
+    "word": "kneecap",
+    "pos": "Noun",
+    "definition": "膝蓋骨",
+    "sentence": "I hit my ______.",
+    "translation": "我撞到膝蓋骨。",
+    "answer": "kneecap"
+   },
+   {
+    "word": "knitting",
+    "pos": "Noun",
+    "definition": "編織",
+    "sentence": "Grandma likes ______.",
+    "translation": "奶奶喜歡編織。",
+    "answer": "knitting"
+   },
+   {
+    "word": "known",
+    "pos": "Adjective",
+    "definition": "有名的",
+    "sentence": "The singer is well ______.",
+    "translation": "那位歌手很有名。",
+    "answer": "known"
+   },
+   {
+    "word": "doorknob",
+    "pos": "Noun",
+    "definition": "門把",
+    "sentence": "The ______ is gold.",
+    "translation": "門把是金色的。",
+    "answer": "doorknob"
+   },
+   {
+    "word": "knelt",
+    "pos": "Verb (past)",
+    "definition": "跪下（過去式）",
+    "sentence": "He ______ down to pray.",
+    "translation": "他跪下祈禱。",
+    "answer": "knelt"
+   },
+   {
+    "word": "knockdown",
+    "pos": "Noun",
+    "definition": "擊倒",
+    "sentence": "It was a ______ in the first round.",
+    "translation": "第一回合就擊倒了。",
+    "answer": "knockdown"
    }
   ]
  },
@@ -14607,6 +16567,78 @@ const PHONICS_RULES = [
     "sentence": "There is a ______ on the door during Christmas.",
     "translation": "聖誕節期間，門上掛著一個 花圈。",
     "answer": "wreath"
+   },
+   {
+    "word": "wrote",
+    "pos": "Verb (past)",
+    "definition": "寫（過去式）",
+    "sentence": "I ______ a letter.",
+    "translation": "我寫了一封信。",
+    "answer": "wrote"
+   },
+   {
+    "word": "written",
+    "pos": "Verb (pp)",
+    "definition": "寫（過去分詞）",
+    "sentence": "The book is ______ in English.",
+    "translation": "這本書是用英文寫的。",
+    "answer": "written"
+   },
+   {
+    "word": "writer",
+    "pos": "Noun",
+    "definition": "作家",
+    "sentence": "She is a famous ______.",
+    "translation": "她是一位有名的作家。",
+    "answer": "writer"
+   },
+   {
+    "word": "wren",
+    "pos": "Noun",
+    "definition": "鷦鷯",
+    "sentence": "A ______ is a tiny bird.",
+    "translation": "鷦鷯是一種很小的鳥。",
+    "answer": "wren"
+   },
+   {
+    "word": "wrench",
+    "pos": "Noun",
+    "definition": "扳手",
+    "sentence": "Dad uses a ______.",
+    "translation": "爸爸用扳手。",
+    "answer": "wrench"
+   },
+   {
+    "word": "writing",
+    "pos": "Noun",
+    "definition": "書寫",
+    "sentence": "Your ______ is neat.",
+    "translation": "你的字很工整。",
+    "answer": "writing"
+   },
+   {
+    "word": "wriggle",
+    "pos": "Verb",
+    "definition": "扭動",
+    "sentence": "The worm ______s in the dirt.",
+    "translation": "蟲在土裡扭動。",
+    "answer": "wriggle"
+   },
+   {
+    "word": "wrecked",
+    "pos": "Adjective",
+    "definition": "毀壞的",
+    "sentence": "The car is ______.",
+    "translation": "車子毀了。",
+    "answer": "wrecked"
+   },
+   {
+    "word": "shipwreck",
+    "pos": "Noun",
+    "definition": "船難",
+    "sentence": "They found an old ______.",
+    "translation": "他們找到一艘古老的沉船。",
+    "answer": "shipwreck"
    }
   ]
  },
@@ -14728,6 +16760,62 @@ const PHONICS_RULES = [
     "sentence": "He paid his ______.",
     "translation": "他還清了債。",
     "answer": "debt"
+   },
+   {
+    "word": "plumbing",
+    "pos": "Noun",
+    "definition": "水管系統",
+    "sentence": "The ______ is old.",
+    "translation": "水管很舊了。",
+    "answer": "plumbing"
+   },
+   {
+    "word": "climbing",
+    "pos": "Noun",
+    "definition": "攀爬",
+    "sentence": "Rock ______ is fun.",
+    "translation": "攀岩很好玩。",
+    "answer": "climbing"
+   },
+   {
+    "word": "thumbtack",
+    "pos": "Noun",
+    "definition": "圖釘",
+    "sentence": "Put the paper up with a ______.",
+    "translation": "用圖釘把紙釘起來。",
+    "answer": "thumbtack"
+   },
+   {
+    "word": "lambskin",
+    "pos": "Noun",
+    "definition": "羔羊皮",
+    "sentence": "These gloves are ______.",
+    "translation": "這副手套是羔羊皮做的。",
+    "answer": "lambskin"
+   },
+   {
+    "word": "combing",
+    "pos": "Verb",
+    "definition": "梳（頭）",
+    "sentence": "She is ______ her hair.",
+    "translation": "她在梳頭髮。",
+    "answer": "combing"
+   },
+   {
+    "word": "bomber",
+    "pos": "Noun",
+    "definition": "轟炸機",
+    "sentence": "The ______ flies high.",
+    "translation": "轟炸機飛得很高。",
+    "answer": "bomber"
+   },
+   {
+    "word": "crumbs",
+    "pos": "Noun",
+    "definition": "碎屑",
+    "sentence": "The bird eats bread ______.",
+    "translation": "鳥吃麵包屑。",
+    "answer": "crumbs"
    }
   ]
  },
@@ -14849,6 +16937,62 @@ const PHONICS_RULES = [
     "sentence": "The monster ______es its teeth.",
     "translation": "怪獸咬牙切齒。",
     "answer": "gnash"
+   },
+   {
+    "word": "signal",
+    "pos": "Noun",
+    "definition": "訊號",
+    "sentence": "There is no ______ here.",
+    "translation": "這裡沒有訊號。",
+    "answer": "signal"
+   },
+   {
+    "word": "designer",
+    "pos": "Noun",
+    "definition": "設計師",
+    "sentence": "She is a fashion ______.",
+    "translation": "她是一位時裝設計師。",
+    "answer": "designer"
+   },
+   {
+    "word": "sign language",
+    "pos": "Noun",
+    "definition": "手語",
+    "sentence": "He talks in ______.",
+    "translation": "他用手語說話。",
+    "answer": "sign language"
+   },
+   {
+    "word": "sovereign",
+    "pos": "Noun",
+    "definition": "君主",
+    "sentence": "The ______ rules the land.",
+    "translation": "君主統治這片土地。",
+    "answer": "sovereign"
+   },
+   {
+    "word": "gnarled",
+    "pos": "Adjective",
+    "definition": "扭曲多節的",
+    "sentence": "The old tree is ______.",
+    "translation": "那棵老樹扭曲多節。",
+    "answer": "gnarled"
+   },
+   {
+    "word": "foreigner",
+    "pos": "Noun",
+    "definition": "外國人",
+    "sentence": "The ______ speaks Chinese.",
+    "translation": "那個外國人會說中文。",
+    "answer": "foreigner"
+   },
+   {
+    "word": "assignment",
+    "pos": "Noun",
+    "definition": "作業",
+    "sentence": "Hand in your ______.",
+    "translation": "交出你的作業。",
+    "answer": "assignment"
    }
   ]
  },
@@ -14970,6 +17114,62 @@ const PHONICS_RULES = [
     "sentence": "I ______ it was easy.",
     "translation": "我以為那很簡單。",
     "answer": "thought"
+   },
+   {
+    "word": "night",
+    "pos": "Noun",
+    "definition": "夜晚",
+    "sentence": "The stars shine at ______.",
+    "translation": "星星在夜晚閃耀。",
+    "answer": "night"
+   },
+   {
+    "word": "light",
+    "pos": "Noun",
+    "definition": "燈",
+    "sentence": "Turn on the ______.",
+    "translation": "打開燈。",
+    "answer": "light"
+   },
+   {
+    "word": "high",
+    "pos": "Adjective",
+    "definition": "高的",
+    "sentence": "The kite flies ______.",
+    "translation": "風箏飛得很高。",
+    "answer": "high"
+   },
+   {
+    "word": "weight",
+    "pos": "Noun",
+    "definition": "重量",
+    "sentence": "What is your ______?",
+    "translation": "你的體重多少？",
+    "answer": "weight"
+   },
+   {
+    "word": "fight",
+    "pos": "Verb",
+    "definition": "打架",
+    "sentence": "Don't ______ with your friends.",
+    "translation": "不要和朋友打架。",
+    "answer": "fight"
+   },
+   {
+    "word": "naughty",
+    "pos": "Adjective",
+    "definition": "頑皮的",
+    "sentence": "The puppy is ______.",
+    "translation": "小狗很頑皮。",
+    "answer": "naughty"
+   },
+   {
+    "word": "dough",
+    "pos": "Noun",
+    "definition": "麵團",
+    "sentence": "Mom makes ______ for bread.",
+    "translation": "媽媽做麵團來做麵包。",
+    "answer": "dough"
    }
   ]
  },
@@ -15091,6 +17291,62 @@ const PHONICS_RULES = [
     "sentence": "Stand in the ______.",
     "translation": "站在中間。",
     "answer": "middle"
+   },
+   {
+    "word": "apple",
+    "pos": "Noun",
+    "definition": "蘋果",
+    "sentence": "An ______ a day keeps the doctor away.",
+    "translation": "一天一蘋果，醫生遠離我。",
+    "answer": "apple"
+   },
+   {
+    "word": "purple",
+    "pos": "Adjective",
+    "definition": "紫色的",
+    "sentence": "I like ______ grapes.",
+    "translation": "我喜歡紫色的葡萄。",
+    "answer": "purple"
+   },
+   {
+    "word": "turtle",
+    "pos": "Noun",
+    "definition": "烏龜",
+    "sentence": "The ______ walks slowly.",
+    "translation": "烏龜走得很慢。",
+    "answer": "turtle"
+   },
+   {
+    "word": "circle",
+    "pos": "Noun",
+    "definition": "圓形",
+    "sentence": "Draw a ______.",
+    "translation": "畫一個圓。",
+    "answer": "circle"
+   },
+   {
+    "word": "bicycle",
+    "pos": "Noun",
+    "definition": "腳踏車",
+    "sentence": "I ride my ______ to school.",
+    "translation": "我騎腳踏車上學。",
+    "answer": "bicycle"
+   },
+   {
+    "word": "people",
+    "pos": "Noun",
+    "definition": "人們",
+    "sentence": "Many ______ are in the park.",
+    "translation": "很多人在公園裡。",
+    "answer": "people"
+   },
+   {
+    "word": "simple",
+    "pos": "Adjective",
+    "definition": "簡單的",
+    "sentence": "This question is ______.",
+    "translation": "這個問題很簡單。",
+    "answer": "simple"
    }
   ]
  },
@@ -15220,6 +17476,54 @@ const PHONICS_RULES = [
     "sentence": "The boy ______ \"Help!\"",
     "translation": "男孩大喊「救命！」",
     "answer": "shouted"
+   },
+   {
+    "word": "danced",
+    "pos": "Verb (past) /t/",
+    "definition": "跳舞了",
+    "sentence": "We ______ at the party.",
+    "translation": "我們在派對上跳舞。",
+    "answer": "danced"
+   },
+   {
+    "word": "laughed",
+    "pos": "Verb (past) /t/",
+    "definition": "笑了",
+    "sentence": "Everyone ______ at the joke.",
+    "translation": "大家都被笑話逗笑了。",
+    "answer": "laughed"
+   },
+   {
+    "word": "opened",
+    "pos": "Verb (past) /d/",
+    "definition": "打開了",
+    "sentence": "She ______ the box.",
+    "translation": "她打開了箱子。",
+    "answer": "opened"
+   },
+   {
+    "word": "listened",
+    "pos": "Verb (past) /d/",
+    "definition": "聽了",
+    "sentence": "I ______ to music.",
+    "translation": "我聽了音樂。",
+    "answer": "listened"
+   },
+   {
+    "word": "planted",
+    "pos": "Verb (past) /ɪd/",
+    "definition": "種了",
+    "sentence": "We ______ a tree.",
+    "translation": "我們種了一棵樹。",
+    "answer": "planted"
+   },
+   {
+    "word": "landed",
+    "pos": "Verb (past) /ɪd/",
+    "definition": "降落了",
+    "sentence": "The plane ______.",
+    "translation": "飛機降落了。",
+    "answer": "landed"
    }
   ]
  },
@@ -15341,6 +17645,54 @@ const PHONICS_RULES = [
     "sentence": "He has a big stamp ______.",
     "translation": "他有很多郵票收藏。",
     "answer": "collection"
+   },
+   {
+    "word": "addition",
+    "pos": "Noun",
+    "definition": "加法",
+    "sentence": "We learn ______ in math.",
+    "translation": "我們在數學課學加法。",
+    "answer": "addition"
+   },
+   {
+    "word": "fraction",
+    "pos": "Noun",
+    "definition": "分數",
+    "sentence": "One half is a ______.",
+    "translation": "二分之一是一個分數。",
+    "answer": "fraction"
+   },
+   {
+    "word": "election",
+    "pos": "Noun",
+    "definition": "選舉",
+    "sentence": "There is an ______ next week.",
+    "translation": "下週有選舉。",
+    "answer": "election"
+   },
+   {
+    "word": "pollution",
+    "pos": "Noun",
+    "definition": "污染",
+    "sentence": "Air ______ is bad for us.",
+    "translation": "空氣污染對我們有害。",
+    "answer": "pollution"
+   },
+   {
+    "word": "emotion",
+    "pos": "Noun",
+    "definition": "情緒",
+    "sentence": "Happy is an ______.",
+    "translation": "快樂是一種情緒。",
+    "answer": "emotion"
+   },
+   {
+    "word": "transportation",
+    "pos": "Noun",
+    "definition": "交通工具",
+    "sentence": "The MRT is fast ______.",
+    "translation": "捷運是快速的交通工具。",
+    "answer": "transportation"
    }
   ]
  }
