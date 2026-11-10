@@ -1094,6 +1094,13 @@ scream|😱
 scroll|📜
 scroll bar|🖱️
 shame|😳
+bow ㄠ|🙇
+bow ㄡ|🎀
+how ㄠ|🤷
+wow ㄠ|🤩
+rainbow ㄡ|🌈
+arrow ㄡ|➡️
+crow ㄡ|🐦‍⬛
 screw|🔩
 script|📜
 scrape|🩹

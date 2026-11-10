@@ -4852,6 +4852,239 @@ const PHONICS_RULES = [
   ]
  },
  {
+  "id": "ow-two-sounds",
+  "title": "ow vs ow (cow / snow)",
+  "sourceHeading": "ow 兩種念法：ㄠ (cow) / ㄡ (snow)",
+  "group": "Other Vowel Sounds 其他母音",
+  "hl": "ow",
+  "items": [
+   {
+    "word": "cow ㄠ",
+    "pos": "Noun",
+    "definition": "母牛",
+    "sentence": "The ______ gives us milk.",
+    "translation": "母牛給我們牛奶。",
+    "answer": "cow ㄠ"
+   },
+   {
+    "word": "how ㄠ",
+    "pos": "Adverb",
+    "definition": "如何；多麼",
+    "sentence": "______ are you today?",
+    "translation": "你今天好嗎？",
+    "answer": "how ㄠ"
+   },
+   {
+    "word": "now ㄠ",
+    "pos": "Adverb",
+    "definition": "現在",
+    "sentence": "Let's go ______!",
+    "translation": "我們現在走吧！",
+    "answer": "now ㄠ"
+   },
+   {
+    "word": "wow ㄠ",
+    "pos": "Interj",
+    "definition": "哇",
+    "sentence": "______! What a big cake!",
+    "translation": "哇！好大的蛋糕！",
+    "answer": "wow ㄠ"
+   },
+   {
+    "word": "owl ㄠ",
+    "pos": "Noun",
+    "definition": "貓頭鷹",
+    "sentence": "An ______ can see at night.",
+    "translation": "貓頭鷹晚上看得見。",
+    "answer": "owl ㄠ"
+   },
+   {
+    "word": "town ㄠ",
+    "pos": "Noun",
+    "definition": "小鎮",
+    "sentence": "My grandma lives in a small ______.",
+    "translation": "我奶奶住在一個小鎮。",
+    "answer": "town ㄠ"
+   },
+   {
+    "word": "brown ㄠ",
+    "pos": "Adjective",
+    "definition": "咖啡色的",
+    "sentence": "The bear is ______.",
+    "translation": "那隻熊是咖啡色的。",
+    "answer": "brown ㄠ"
+   },
+   {
+    "word": "crown ㄠ",
+    "pos": "Noun",
+    "definition": "皇冠",
+    "sentence": "The king wears a gold ______.",
+    "translation": "國王戴著金皇冠。",
+    "answer": "crown ㄠ"
+   },
+   {
+    "word": "clown ㄠ",
+    "pos": "Noun",
+    "definition": "小丑",
+    "sentence": "The ______ has a red nose.",
+    "translation": "小丑有紅鼻子。",
+    "answer": "clown ㄠ"
+   },
+   {
+    "word": "down ㄠ",
+    "pos": "Adverb",
+    "definition": "往下",
+    "sentence": "Sit ______, please.",
+    "translation": "請坐下。",
+    "answer": "down ㄠ"
+   },
+   {
+    "word": "flower ㄠ",
+    "pos": "Noun",
+    "definition": "花",
+    "sentence": "I give Mom a ______.",
+    "translation": "我送媽媽一朵花。",
+    "answer": "flower ㄠ"
+   },
+   {
+    "word": "towel ㄠ",
+    "pos": "Noun",
+    "definition": "毛巾",
+    "sentence": "Dry your hands with a ______.",
+    "translation": "用毛巾擦乾手。",
+    "answer": "towel ㄠ"
+   },
+   {
+    "word": "shower ㄠ",
+    "pos": "Noun",
+    "definition": "淋浴",
+    "sentence": "I take a ______ every night.",
+    "translation": "我每晚洗澡。",
+    "answer": "shower ㄠ"
+   },
+   {
+    "word": "bow ㄠ",
+    "pos": "Verb",
+    "definition": "鞠躬",
+    "sentence": "______ to the teacher.",
+    "translation": "向老師鞠躬。",
+    "answer": "bow ㄠ"
+   },
+   {
+    "word": "snow ㄡ",
+    "pos": "Noun",
+    "definition": "雪",
+    "sentence": "We play in the ______.",
+    "translation": "我們在雪中玩。",
+    "answer": "snow ㄡ"
+   },
+   {
+    "word": "slow ㄡ",
+    "pos": "Adjective",
+    "definition": "慢的",
+    "sentence": "The turtle is ______.",
+    "translation": "烏龜很慢。",
+    "answer": "slow ㄡ"
+   },
+   {
+    "word": "show ㄡ",
+    "pos": "Verb",
+    "definition": "給…看",
+    "sentence": "______ me your picture.",
+    "translation": "給我看你的畫。",
+    "answer": "show ㄡ"
+   },
+   {
+    "word": "grow ㄡ",
+    "pos": "Verb",
+    "definition": "生長",
+    "sentence": "Trees ______ tall.",
+    "translation": "樹長得很高。",
+    "answer": "grow ㄡ"
+   },
+   {
+    "word": "bowl ㄡ",
+    "pos": "Noun",
+    "definition": "碗",
+    "sentence": "I want a ______ of noodles.",
+    "translation": "我要一碗麵。",
+    "answer": "bowl ㄡ"
+   },
+   {
+    "word": "window ㄡ",
+    "pos": "Noun",
+    "definition": "窗戶",
+    "sentence": "Close the ______, please.",
+    "translation": "請關窗。",
+    "answer": "window ㄡ"
+   },
+   {
+    "word": "yellow ㄡ",
+    "pos": "Adjective",
+    "definition": "黃色的",
+    "sentence": "The sun is ______.",
+    "translation": "太陽是黃色的。",
+    "answer": "yellow ㄡ"
+   },
+   {
+    "word": "pillow ㄡ",
+    "pos": "Noun",
+    "definition": "枕頭",
+    "sentence": "My ______ is soft.",
+    "translation": "我的枕頭很軟。",
+    "answer": "pillow ㄡ"
+   },
+   {
+    "word": "rainbow ㄡ",
+    "pos": "Noun",
+    "definition": "彩虹",
+    "sentence": "Look at the ______ in the sky!",
+    "translation": "看天空的彩虹！",
+    "answer": "rainbow ㄡ"
+   },
+   {
+    "word": "blow ㄡ",
+    "pos": "Verb",
+    "definition": "吹",
+    "sentence": "______ out the candles!",
+    "translation": "吹蠟燭！",
+    "answer": "blow ㄡ"
+   },
+   {
+    "word": "arrow ㄡ",
+    "pos": "Noun",
+    "definition": "箭；箭頭",
+    "sentence": "Follow the ______.",
+    "translation": "跟著箭頭走。",
+    "answer": "arrow ㄡ"
+   },
+   {
+    "word": "elbow ㄡ",
+    "pos": "Noun",
+    "definition": "手肘",
+    "sentence": "I hurt my ______.",
+    "translation": "我弄傷了手肘。",
+    "answer": "elbow ㄡ"
+   },
+   {
+    "word": "crow ㄡ",
+    "pos": "Noun",
+    "definition": "烏鴉",
+    "sentence": "A black ______ sits on the tree.",
+    "translation": "一隻黑烏鴉停在樹上。",
+    "answer": "crow ㄡ"
+   },
+   {
+    "word": "bow ㄡ",
+    "pos": "Noun",
+    "definition": "蝴蝶結",
+    "sentence": "She has a pink ______ in her hair.",
+    "translation": "她頭上有粉紅色蝴蝶結。",
+    "answer": "bow ㄡ"
+   }
+  ]
+ },
+ {
   "id": "oi-oy",
   "title": "oi / oy ㄛㄧ",
   "sourceHeading": "oi / oy ㄛㄧ",

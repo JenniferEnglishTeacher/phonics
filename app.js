@@ -1,5 +1,5 @@
 /* Jennifer Phonics — main app */
-const NEW_RULE_IDS = new Set(["ai-ay","ee-ea","oa-ow","ie-igh","ue-ew-ui","y-long-i","y-long-e","oo-long","oo-short","ea-short","ur-er","ore-oar","air-are","ear-eer","war-wor","fl-blend","gl-blend","dr-blend","fr-blend","gr-blend","tr-blend","tw-blend","spr-spl-blend","str-blend","qu-squ","thr-shr-blend","final-blends","ck","tch","x-ks","floss","all","mb-silent-b","gn-silent-g","gh","le-ending","ed-ending","tion"]);
+const NEW_RULE_IDS = new Set(["ai-ay","ee-ea","oa-ow","ie-igh","ue-ew-ui","y-long-i","y-long-e","oo-long","oo-short","ea-short","ur-er","ore-oar","air-are","ear-eer","war-wor","fl-blend","gl-blend","dr-blend","fr-blend","gr-blend","tr-blend","tw-blend","spr-spl-blend","str-blend","qu-squ","thr-shr-blend","final-blends","ck","tch","x-ks","floss","all","mb-silent-b","gn-silent-g","gh","le-ending","ed-ending","tion","ow-two-sounds"]);
 const PRACTICE_MODES = ["spell", "shuffle", "fill", "speak"];
 const PER_TICKET = 5;
 
@@ -46,7 +46,7 @@ function cleanWord(w) {
   if (WORD_PICTURES.has(k.toLowerCase())) return k;
   return k.split("-")[0].trim();
 }
-function pictureFor(item) { return WORD_PICTURES.get(cleanWord(item.word).toLowerCase()) || "🔤"; }
+function pictureFor(item) { return WORD_PICTURES.get(String(item.word).toLowerCase().trim()) || WORD_PICTURES.get(cleanWord(item.word).toLowerCase()) || "🔤"; }
 function picClass(p) { const n = [...new Intl.Segmenter(undefined, { granularity: "grapheme" }).segment(p)].length; return n >= 3 ? "many" : n === 2 ? "multi" : ""; }
 function picHtml(item, extra = "") { const p = pictureFor(item); return `<div class="pic ${picClass(p)} ${extra}" aria-hidden="true">${p}</div>`; }
 function soundNote(word) { const m = String(word).match(/[㄀-ㄯ]+/); return m ? m[0] : ""; }
@@ -195,7 +195,7 @@ function renderLearn() {
   els.wordList.innerHTML = r.items.map((it, n) => {
     const note = soundNote(it.word);
     const shown = it.word.replace(/[㄀-ㄯ]+/g, "").trim();
-    return `<li class="word-row" data-i="${n}">
+    return `<li class="word-row" data-i="${n}" data-note="${note}">
       <div class="num">${n + 1}</div>
       ${picHtml(it)}
       <div class="word-main">
@@ -435,7 +435,14 @@ function gameContext() {
       seen.add(lw); distract.push({ word: w, pic: pictureFor(i) });
     }
   }
-  return { rule: r, targets, distractors: distract, speak, beep, highlight: w => highlight(w, r), shuffle, pick, esc };
+  const notes = r.items.map(i => soundNote(i.word));
+  let sounds = null;
+  if (notes.every(Boolean) && new Set(notes).size >= 2) {
+    const bySound = new Map();
+    r.items.forEach(i => { const n = soundNote(i.word); if (!bySound.has(n)) bySound.set(n, []); bySound.get(n).push({ word: cleanWord(i.word), pic: pictureFor(i) }); });
+    sounds = [...bySound].map(([n, items]) => ({ label: `${n}  as in “${items[0].word}”`, items }));
+  }
+  return { rule: r, targets, distractors: distract, sounds, speak, beep, highlight: w => highlight(w, r), shuffle, pick, esc };
 }
 function renderGames() {
   els.gameGrid.innerHTML = PhonicsGames.list.map(g => `<button class="game-card" data-g="${g.id}"><span class="gi">${g.icon}</span><b>${g.name}</b><small>${g.desc}</small></button>`).join("");

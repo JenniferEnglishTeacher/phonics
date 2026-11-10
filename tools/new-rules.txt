@@ -634,3 +634,33 @@ knuckle|Noun|指關節|He hurt his ______.|他弄傷了指關節。
 knowledge|Noun|知識|Books give us ______.|書本給我們知識。
 knapsack|Noun|背包|I carry a ______ on the hike.|健行時我背著背包。
 knew|Verb (past)|知道（過去式）|I ______ the answer!|我知道答案！
+
+## ow-two-sounds | ow vs ow (cow / snow) | ow 兩種念法：ㄠ (cow) / ㄡ (snow) | Other Vowel Sounds | ow
+cow ㄠ|Noun|母牛|The ______ gives us milk.|母牛給我們牛奶。
+how ㄠ|Adverb|如何；多麼|______ are you today?|你今天好嗎？
+now ㄠ|Adverb|現在|Let's go ______!|我們現在走吧！
+wow ㄠ|Interj|哇|______! What a big cake!|哇！好大的蛋糕！
+owl ㄠ|Noun|貓頭鷹|An ______ can see at night.|貓頭鷹晚上看得見。
+town ㄠ|Noun|小鎮|My grandma lives in a small ______.|我奶奶住在一個小鎮。
+brown ㄠ|Adjective|咖啡色的|The bear is ______.|那隻熊是咖啡色的。
+crown ㄠ|Noun|皇冠|The king wears a gold ______.|國王戴著金皇冠。
+clown ㄠ|Noun|小丑|The ______ has a red nose.|小丑有紅鼻子。
+down ㄠ|Adverb|往下|Sit ______, please.|請坐下。
+flower ㄠ|Noun|花|I give Mom a ______.|我送媽媽一朵花。
+towel ㄠ|Noun|毛巾|Dry your hands with a ______.|用毛巾擦乾手。
+shower ㄠ|Noun|淋浴|I take a ______ every night.|我每晚洗澡。
+bow ㄠ|Verb|鞠躬|______ to the teacher.|向老師鞠躬。
+snow ㄡ|Noun|雪|We play in the ______.|我們在雪中玩。
+slow ㄡ|Adjective|慢的|The turtle is ______.|烏龜很慢。
+show ㄡ|Verb|給…看|______ me your picture.|給我看你的畫。
+grow ㄡ|Verb|生長|Trees ______ tall.|樹長得很高。
+bowl ㄡ|Noun|碗|I want a ______ of noodles.|我要一碗麵。
+window ㄡ|Noun|窗戶|Close the ______, please.|請關窗。
+yellow ㄡ|Adjective|黃色的|The sun is ______.|太陽是黃色的。
+pillow ㄡ|Noun|枕頭|My ______ is soft.|我的枕頭很軟。
+rainbow ㄡ|Noun|彩虹|Look at the ______ in the sky!|看天空的彩虹！
+blow ㄡ|Verb|吹|______ out the candles!|吹蠟燭！
+arrow ㄡ|Noun|箭；箭頭|Follow the ______.|跟著箭頭走。
+elbow ㄡ|Noun|手肘|I hurt my ______.|我弄傷了手肘。
+crow ㄡ|Noun|烏鴉|A black ______ sits on the tree.|一隻黑烏鴉停在樹上。
+bow ㄡ|Noun|蝴蝶結|She has a pink ______ in her hair.|她頭上有粉紅色蝴蝶結。

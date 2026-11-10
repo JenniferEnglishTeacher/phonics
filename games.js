@@ -10,10 +10,15 @@ const PhonicsGames = (() => {
   const list = [
     { id: "whack", icon: "🔨", name: "Whack-a-Mole", desc: "Bonk only the moles with words that follow the rule.", start: whack },
     { id: "balloon", icon: "🎈", name: "Balloon Shooter", desc: "Shoot the balloons with words that follow the rule.", start: balloons },
-    { id: "memory", icon: "🃏", name: "Memory Match", desc: "Flip cards to match each picture with its word.", start: memory },
+    { id: "memory", icon: "🎴", name: "Memory Match", desc: "Flip cards to match each picture with its word.", start: memory },
     { id: "ttt", icon: "⭕", name: "Tic-Tac-Toe", desc: "Pick the right spelling to claim a square. Play the computer or a friend.", start: tictactoe },
     { id: "sling", icon: "🐦", name: "Angry Bird Sling", desc: "Pull back the slingshot and hit the pig with a rule word.", start: sling },
-    { id: "pac", icon: "🟡", name: "Phonics Muncher", desc: "Pac-Man style: eat the rule words, avoid the ghost!", start: pac }
+    { id: "pac", icon: "🟡", name: "Phonics Muncher", desc: "Pac-Man style: eat the rule words, avoid the ghost!", start: pac },
+    { id: "reversi", icon: "⚫", name: "Reversi 黑白棋", desc: "Spell right to place a disc and flip your rival's discs. Computer or a friend.", start: reversi },
+    { id: "highcard", icon: "🃏", name: "High Card 猜大小", desc: "Watch the cards shuffle, then pick the one with the biggest number.", start: highcard },
+    { id: "sort", icon: "🧺", name: "Sound Sort", desc: "Sort each word into the right basket by its sound or rule.", start: sort },
+    { id: "bingo", icon: "🎯", name: "Listening Bingo", desc: "Listen to the word, tap it, and make a line for BINGO.", start: bingo },
+    { id: "c4", icon: "🔴", name: "Connect Four 四子連線", desc: "Spell right to drop a disc. Get 4 in a row! Computer or a friend.", start: connect4 }
   ];
 
   /* ---------- framework ---------- */
@@ -488,6 +493,284 @@ const PhonicsGames = (() => {
       }
     }
     raf = requestAnimationFrame(frame); g.cleanup(() => cancelAnimationFrame(raf));
+  }
+
+  /* ---------- shared: spelling question ---------- */
+  function askSpelling(askEl, g, it, cb) {
+    g.ctx.speak(it.word, .9);
+    const others = g.ctx.shuffle(g.ctx.targets.filter(t => t.word !== it.word)).slice(0, 2).map(t => t.word);
+    const opts = g.ctx.shuffle([it.word, ...others]);
+    askEl.innerHTML = `<span style="align-self:center;font-size:30px">${it.pic}</span>` + opts.map(o => `<button data-w="${g.ctx.esc(o)}">${g.ctx.esc(o)}</button>`).join("");
+    askEl.onclick = ev => {
+      const c = ev.target.closest("button"); if (!c) return;
+      askEl.innerHTML = ""; askEl.onclick = null;
+      const ok = c.dataset.w === it.word;
+      g.ctx.beep(ok ? "good" : "bad");
+      cb(ok);
+    };
+  }
+  function modeBar(el, onChange) {
+    el.innerHTML = `<button data-m="cpu" class="active">🧑 vs 🤖 Computer</button><button data-m="pvp">🧑 vs 🧑 2 Players</button>`;
+    el.onclick = e => {
+      const b = e.target.closest("button"); if (!b) return;
+      [...el.children].forEach(x => x.classList.toggle("active", x === b));
+      onChange(b.dataset.m);
+    };
+  }
+
+  /* ---------- 7. Reversi 黑白棋 ---------- */
+  function reversi(el, g) {
+    g.goal("Answer right to place your disc. Flip the most!");
+    const N = 6;
+    el.innerHTML = `<div class="ttt-wrap"><div class="ttt-mode"></div><div class="ttt-status"></div><div class="rev"></div><div class="ttt-ask"></div></div>`;
+    const status = el.querySelector(".ttt-status"), grid = el.querySelector(".rev"), ask = el.querySelector(".ttt-ask");
+    let mode = "cpu", b, turn, busy;
+    modeBar(el.querySelector(".ttt-mode"), m => { mode = m; reset(); });
+    const DIRS = [[1,0],[-1,0],[0,1],[0,-1],[1,1],[1,-1],[-1,1],[-1,-1]];
+    const flips = (x, y, p, board = b) => {
+      if (board[y][x]) return [];
+      const o = p === "B" ? "W" : "B", out = [];
+      for (const [dx, dy] of DIRS) {
+        const line = []; let i = x + dx, j = y + dy;
+        while (i >= 0 && j >= 0 && i < N && j < N && board[j][i] === o) { line.push([i, j]); i += dx; j += dy; }
+        if (line.length && i >= 0 && j >= 0 && i < N && j < N && board[j][i] === p) out.push(...line);
+      }
+      return out;
+    };
+    const moves = p => { const m = []; for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) { const f = flips(x, y, p); if (f.length) m.push({ x, y, f }); } return m; };
+    const count = p => b.flat().filter(v => v === p).length;
+    function reset() {
+      b = Array.from({ length: N }, () => Array(N).fill(null));
+      b[2][2] = b[3][3] = "W"; b[2][3] = b[3][2] = "B";
+      turn = "B"; busy = false; ask.innerHTML = ""; draw(); say();
+    }
+    function draw() {
+      const legal = new Set(((mode === "cpu" && turn === "W") || busy ? [] : moves(turn)).map(m => m.x + "," + m.y));
+      grid.innerHTML = b.map((row, y) => row.map((v, x) => `<button data-x="${x}" data-y="${y}" class="${legal.has(x + "," + y) ? "legal" : ""}">${v ? `<i class="disc ${v}"></i>` : ""}</button>`).join("")).join("");
+    }
+    function say(msg) {
+      const who = mode === "cpu" ? (turn === "B" ? "Your turn ⚫" : "Computer ⚪ thinking…") : `Player ${turn === "B" ? "1 ⚫" : "2 ⚪"}`;
+      status.textContent = `${msg ? msg + " · " : ""}${who}   ·   ⚫ ${count("B")} – ${count("W")} ⚪`;
+    }
+    grid.onclick = e => {
+      const c = e.target.closest("button"); if (!c || busy || (mode === "cpu" && turn === "W")) return;
+      const x = +c.dataset.x, y = +c.dataset.y, f = flips(x, y, turn); if (!f.length) return;
+      busy = true; draw();
+      askSpelling(ask, g, g.ctx.pick(g.ctx.targets), ok => {
+        busy = false;
+        if (ok) place(x, y, f); else { say("Oops, turn lost"); next(); }
+      });
+    };
+    function place(x, y, f) {
+      b[y][x] = turn; f.forEach(([i, j]) => b[j][i] = turn);
+      if (turn === "B" || mode === "pvp") { const r = grid.getBoundingClientRect(); if (turn === "B") g.add(1, r.left + r.width / 2, r.top); }
+      next();
+    }
+    function next() {
+      const other = turn === "B" ? "W" : "B";
+      if (moves(other).length) turn = other;
+      else if (!moves(turn).length) return end();
+      draw(); say();
+      if (mode === "cpu" && turn === "W") { busy = true; g.after(700, cpu); }
+    }
+    function cpu() {
+      busy = false;
+      const ms = moves("W"); if (!ms.length) return next();
+      const corner = ms.find(m => (m.x === 0 || m.x === N - 1) && (m.y === 0 || m.y === N - 1));
+      const m = corner || (Math.random() < .3 ? g.ctx.pick(ms) : ms.sort((a, c) => c.f.length - a.f.length)[0]);
+      place(m.x, m.y, m.f);
+    }
+    function end() {
+      const B = count("B"), W = count("W"); busy = true; draw();
+      status.textContent = B === W ? "🤝 Draw!" : mode === "cpu" ? (B > W ? `🎉 You win! ${B}–${W}` : `🤖 Computer wins ${W}–${B}`) : `🎉 ${B > W ? "Player 1 ⚫" : "Player 2 ⚪"} wins!`;
+      if (B > W) { const r = grid.getBoundingClientRect(); g.add(3, r.left + r.width / 2, r.top); }
+      g.after(2000, reset);
+    }
+    reset();
+  }
+
+  /* ---------- 8. High Card 洗牌猜大小 ---------- */
+  function highcard(el, g) {
+    g.goal("Remember the biggest number, watch the shuffle, pick it!");
+    el.innerHTML = `<div class="hc-wrap"><div class="ttt-status" id="hcStatus"></div><div class="hc-table"></div><button id="hcGo" class="primary">▶ Deal</button></div>`;
+    const table = el.querySelector(".hc-table"), status = el.querySelector("#hcStatus"), go = el.querySelector("#hcGo");
+    let round = 0, cards = [], phase = "idle";
+    const slotX = (i, n) => `calc(${(i + .5) * 100 / n}% - 70px)`;
+    function deal() {
+      round++; phase = "show"; go.hidden = true;
+      const n = round < 3 ? 3 : 4;
+      const nums = g.ctx.shuffle(Array.from({ length: 99 }, (_, i) => i + 1)).slice(0, n);
+      const words = g.ctx.shuffle(g.ctx.targets).slice(0, n);
+      table.innerHTML = "";
+      cards = nums.map((num, i) => {
+        const d = document.createElement("button");
+        d.className = "hc-card up";
+        d.innerHTML = `<div class="hc-front"><b>${num}</b><span>${g.ctx.esc(words[i % words.length].word)}</span></div><div class="hc-back">🂠</div>`;
+        d.style.left = slotX(i, n); table.appendChild(d);
+        return { d, num, word: words[i % words.length].word, pos: i };
+      });
+      status.textContent = "👀 Remember the biggest number!";
+      g.after(2200, () => { cards.forEach(c => c.d.classList.remove("up")); status.textContent = "🔀 Shuffling…"; g.after(500, () => shuffleCards(4 + round, Math.max(220, 520 - round * 40))); });
+    }
+    function shuffleCards(times, ms) {
+      if (times <= 0) { phase = "pick"; status.textContent = "👉 Which card has the biggest number?"; return; }
+      const n = cards.length, a = Math.floor(Math.random() * n); let c = Math.floor(Math.random() * (n - 1)); if (c >= a) c++;
+      const A = cards.find(k => k.pos === a), C = cards.find(k => k.pos === c);
+      A.pos = c; C.pos = a;
+      [A, C].forEach(k => { k.d.style.transitionDuration = ms + "ms"; k.d.style.left = slotX(k.pos, n); });
+      A.d.style.transform = "translateY(-30px)"; C.d.style.transform = "translateY(30px)";
+      g.after(ms, () => { A.d.style.transform = C.d.style.transform = ""; shuffleCards(times - 1, ms); });
+    }
+    table.onclick = e => {
+      const d = e.target.closest(".hc-card"); if (!d || phase !== "pick") return;
+      phase = "done";
+      const pickC = cards.find(k => k.d === d), best = cards.reduce((m, k) => k.num > m.num ? k : m);
+      cards.forEach(k => k.d.classList.add("up"));
+      best.d.classList.add("best");
+      const ok = pickC === best, r = d.getBoundingClientRect();
+      g.add(ok ? 1 : 0, r.left + r.width / 2, r.top);
+      if (!ok) g.ctx.beep("bad");
+      status.innerHTML = ok ? `🎉 Yes! ${best.num} is the biggest. Read it: <b>${g.ctx.esc(best.word)}</b>` : `Oh no! The biggest was ${best.num} (<b>${g.ctx.esc(best.word)}</b>)`;
+      g.ctx.speak(best.word, .9);
+      g.after(2000, deal);
+    };
+    go.onclick = deal;
+    status.textContent = "Each card has a number and a word.";
+  }
+
+  /* ---------- 9. Sound Sort ---------- */
+  function sort(el, g) {
+    const c = g.ctx;
+    let left, right, deck;
+    if (c.sounds && c.sounds.length >= 2) {
+      const [a, b] = c.sounds;
+      left = { label: a.label, items: a.items }; right = { label: b.label, items: b.items };
+      g.goal("Which sound? Sort each word!");
+    } else {
+      left = { label: `✔ ${c.rule.title}`, items: c.targets }; right = { label: "✘ Not this rule", items: c.distractors };
+      g.goal(`Does it follow ${c.rule.title}?`);
+    }
+    el.innerHTML = `<div class="sort-wrap">
+      <button class="basket" data-side="L"><span>🧺</span>${c.esc(left.label)}<small>← key</small></button>
+      <div class="sort-mid"><div class="sort-word" id="sw"></div><button id="swHear" class="ghost">🔊</button><div class="ttt-status" id="sst"></div></div>
+      <button class="basket" data-side="R"><span>🧺</span>${c.esc(right.label)}<small>→ key</small></button></div>`;
+    const sw = el.querySelector("#sw"), st = el.querySelector("#sst");
+    let cur, lock = false;
+    function nextWord() {
+      const side = Math.random() < .5 || !right.items.length ? "L" : "R";
+      const it = c.pick(side === "L" ? left.items : right.items);
+      cur = { ...it, side }; lock = false;
+      sw.textContent = it.word; sw.className = "sort-word drop";
+    }
+    function choose(side) {
+      if (lock || !cur) return; lock = true;
+      const ok = side === cur.side, r = sw.getBoundingClientRect();
+      g.add(ok ? 1 : -1, r.left + r.width / 2, r.top);
+      sw.className = "sort-word " + (ok ? "fly" + side : "shake");
+      st.textContent = ok ? "✅" : `❌ “${cur.word}” → ${cur.side === "L" ? left.label : right.label}`;
+      if (ok) c.speak(cur.word, 1);
+      g.after(ok ? 450 : 1300, () => { st.textContent = ""; nextWord(); });
+    }
+    el.querySelectorAll(".basket").forEach(b => b.onclick = () => choose(b.dataset.side));
+    el.querySelector("#swHear").onclick = () => cur && c.speak(cur.word);
+    const onKey = e => { if (e.key === "ArrowLeft") choose("L"); if (e.key === "ArrowRight") choose("R"); };
+    window.addEventListener("keydown", onKey); g.cleanup(() => window.removeEventListener("keydown", onKey));
+    nextWord();
+  }
+
+  /* ---------- 10. Listening Bingo ---------- */
+  function bingo(el, g) {
+    g.goal("Listen and tap the word. Get a line for BINGO!");
+    el.innerHTML = `<div class="bingo-wrap"><div class="button-row"><button id="bgHear" class="big-hear">🔊 Hear again</button></div><div class="ttt-status" id="bgSt"></div><div class="bingo"></div></div>`;
+    const grid = el.querySelector(".bingo"), st = el.querySelector("#bgSt");
+    let words, marked, called, lines;
+    const LINES = [];
+    for (let i = 0; i < 4; i++) { LINES.push([0,1,2,3].map(j => i * 4 + j)); LINES.push([0,1,2,3].map(j => j * 4 + i)); }
+    LINES.push([0,5,10,15], [3,6,9,12]);
+    function newCard() {
+      const pool = g.ctx.shuffle(g.ctx.targets).slice(0, 16);
+      const extra = g.ctx.shuffle(g.ctx.distractors).slice(0, 16 - pool.length);
+      words = g.ctx.shuffle([...pool, ...extra]).map(x => x.word);
+      marked = Array(16).fill(false); lines = new Set();
+      grid.innerHTML = words.map((w, i) => `<button data-i="${i}">${g.ctx.esc(w)}</button>`).join("");
+      callNext();
+    }
+    function callNext() {
+      const left = words.map((w, i) => marked[i] ? null : i).filter(i => i !== null);
+      if (!left.length) return g.after(800, newCard);
+      called = g.ctx.pick(left); st.textContent = "🎧 Listen…";
+      g.after(300, () => g.ctx.speak(words[called], .8));
+    }
+    el.querySelector("#bgHear").onclick = () => g.ctx.speak(words[called], .7);
+    grid.onclick = e => {
+      const b = e.target.closest("button"); if (!b) return;
+      const i = +b.dataset.i; if (marked[i]) return;
+      if (i !== called) { g.ctx.beep("bad"); b.classList.remove("shake"); void b.offsetWidth; b.classList.add("shake"); st.textContent = "Not that one — listen again!"; return; }
+      marked[i] = true; b.classList.add("on");
+      const r = b.getBoundingClientRect(); g.add(1, r.left + r.width / 2, r.top);
+      LINES.forEach((L, k) => { if (!lines.has(k) && L.every(j => marked[j])) { lines.add(k); L.forEach(j => grid.children[j].classList.add("line")); st.textContent = "🎉 BINGO! +3"; g.add(3, r.left, r.top - 30); } });
+      if (lines.size >= 3) { g.after(1200, newCard); return; }
+      g.after(600, callNext);
+    };
+    newCard();
+  }
+
+  /* ---------- 11. Connect Four 四子連線 ---------- */
+  function connect4(el, g) {
+    g.goal("Answer right to drop your disc. Get 4 in a row!");
+    const R = 6, C = 7;
+    el.innerHTML = `<div class="ttt-wrap"><div class="ttt-mode"></div><div class="ttt-status"></div><div class="c4"></div><div class="ttt-ask"></div></div>`;
+    const status = el.querySelector(".ttt-status"), grid = el.querySelector(".c4"), ask = el.querySelector(".ttt-ask");
+    let mode = "cpu", b, turn, busy, wins = { R: 0, Y: 0 };
+    modeBar(el.querySelector(".ttt-mode"), m => { mode = m; wins = { R: 0, Y: 0 }; reset(); });
+    const drop = (board, col) => { for (let r = R - 1; r >= 0; r--) if (!board[r][col]) return r; return -1; };
+    function winner(board) {
+      for (let r = 0; r < R; r++) for (let c = 0; c < C; c++) {
+        const p = board[r][c]; if (!p) continue;
+        for (const [dr, dc] of [[0,1],[1,0],[1,1],[1,-1]]) {
+          let k = 1; while (k < 4) { const rr = r + dr * k, cc = c + dc * k; if (rr < 0 || rr >= R || cc < 0 || cc >= C || board[rr][cc] !== p) break; k++; }
+          if (k === 4) return p;
+        }
+      }
+      return board[0].every(Boolean) ? "draw" : null;
+    }
+    function reset() { b = Array.from({ length: R }, () => Array(C).fill(null)); turn = "R"; busy = false; ask.innerHTML = ""; draw(); say(); }
+    function draw() { grid.innerHTML = b.map((row, r) => row.map((v, c) => `<button data-c="${c}"><i class="disc ${v || ""}"></i></button>`).join("")).join(""); }
+    function say(msg) {
+      const who = mode === "cpu" ? (turn === "R" ? "Your turn 🔴" : "Computer 🟡 thinking…") : `Player ${turn === "R" ? "1 🔴" : "2 🟡"}`;
+      status.textContent = `${msg ? msg + " · " : ""}${who}   ·   🔴 ${wins.R} – ${wins.Y} 🟡`;
+    }
+    grid.onclick = e => {
+      const btn = e.target.closest("button"); if (!btn || busy || (mode === "cpu" && turn === "Y")) return;
+      const col = +btn.dataset.c; if (drop(b, col) < 0) return;
+      busy = true;
+      askSpelling(ask, g, g.ctx.pick(g.ctx.targets), ok => { busy = false; if (ok) place(col); else { say("Oops, turn lost"); swap(); } });
+    };
+    function place(col) {
+      b[drop(b, col)][col] = turn; draw();
+      const w = winner(b);
+      if (w) {
+        busy = true;
+        if (w === "draw") say("🤝 Draw!");
+        else { wins[w]++; status.textContent = mode === "cpu" ? (w === "R" ? "🎉 You win!" : "🤖 Computer wins!") : `🎉 Player ${w === "R" ? "1 🔴" : "2 🟡"} wins!`;
+          if (w === "R") { const r = grid.getBoundingClientRect(); g.add(3, r.left + r.width / 2, r.top); } }
+        g.after(1600, reset); return;
+      }
+      swap();
+    }
+    function swap() {
+      turn = turn === "R" ? "Y" : "R"; say();
+      if (mode === "cpu" && turn === "Y") { busy = true; g.after(650, cpu); }
+    }
+    function cpu() {
+      busy = false;
+      const cols = [...Array(C).keys()].filter(c => drop(b, c) >= 0);
+      const tryP = p => cols.find(c => { const t = b.map(r => [...r]); t[drop(t, c)][c] = p; return winner(t) === p; });
+      let m = Math.random() < .2 ? undefined : (tryP("Y") ?? tryP("R"));
+      if (m === undefined) m = g.ctx.pick(cols.sort((a, c) => Math.abs(a - 3) - Math.abs(c - 3)).slice(0, 4));
+      place(m);
+    }
+    reset();
   }
 
   return { list, play, close };
