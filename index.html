@@ -3,95 +3,120 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jennifer Phonics Lessons</title>
+  <title>Jennifer Phonics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="app-header">
-    <div>
-      <p class="eyebrow">Jennifer Phonics</p>
-      <h1>Phonics Rule Lessons</h1>
+    <button id="menuBtn" class="menu-btn" type="button" aria-label="Open rule list">☰</button>
+    <div class="brand">
+      <span class="brand-logo" aria-hidden="true">🔤</span>
+      <div>
+        <p class="eyebrow">Jennifer Phonics</p>
+        <h1>Phonics Rules &amp; Games</h1>
+      </div>
     </div>
-    <div class="header-actions">
-      <a href="tif-and-cole.html">My View K5 Tif and Cole</a>
-      <a id="channelLink" href="https://www.youtube.com/@Rasslanguage" target="_blank" rel="noreferrer">Rasslanguage</a>
+    <div class="header-right">
+      <div class="star-bank" title="Stars and game tickets">
+        <span>⭐ <b id="starCount">0</b></span>
+        <span>🎟️ <b id="ticketCount">0</b></span>
+      </div>
+      <a class="header-link" href="tif-and-cole.html">My View K5 Tif and Cole</a>
     </div>
   </header>
 
   <div class="layout">
-    <aside class="sidebar" aria-label="Phonics rule sidebar">
+    <aside id="sidebar" class="sidebar" aria-label="Phonics rules">
       <div class="sidebar-head">
-        <h2>Rules</h2>
-        <input id="ruleSearch" type="search" placeholder="Search" autocomplete="off">
+        <input id="ruleSearch" type="search" placeholder="Search rule or word…" autocomplete="off">
       </div>
       <nav id="ruleList" class="rule-list"></nav>
     </aside>
+    <div id="scrim" class="scrim" hidden></div>
 
     <main class="lesson">
       <section class="lesson-title">
-        <p id="ruleSource" class="eyebrow">Rule</p>
-        <h2 id="ruleTitle">Choose a phonics rule</h2>
-        <p id="ruleCount" class="muted"></p>
-      </section>
-
-      <section class="lesson-section video-section">
-        <div class="section-title">
-          <h3>A. Cartoon Video</h3>
-          <a id="videoSearchLink" class="video-button" href="https://www.youtube.com/@Rasslanguage" target="_blank" rel="noreferrer">Open on YouTube</a>
+        <div>
+          <p id="ruleGroup" class="eyebrow"></p>
+          <h2 id="ruleTitle">Choose a rule</h2>
+          <p id="ruleSub" class="muted"></p>
         </div>
-        <div class="video-card">
-          <div class="mascot" aria-hidden="true">abc</div>
-          <p>Rasslanguage video opens in YouTube.</p>
+        <div class="title-actions">
+          <button id="prevRule" type="button" class="ghost" aria-label="Previous rule">◀</button>
+          <button id="readAllBtn" type="button">🔊 Read all words</button>
+          <button id="nextRule" type="button" class="ghost" aria-label="Next rule">▶</button>
         </div>
       </section>
 
-      <section class="lesson-section">
-        <div class="section-title">
-          <h3>B. Words & Sentences</h3>
-          <button id="readRuleBtn" type="button">Read Rule</button>
+      <nav class="mode-tabs" role="tablist" id="modeTabs">
+        <button role="tab" data-mode="learn" class="active">📖 Learn</button>
+        <button role="tab" data-mode="spell">🎧 Listen &amp; Spell</button>
+        <button role="tab" data-mode="shuffle">🔀 Letter Shuffle</button>
+        <button role="tab" data-mode="fill">✏️ Fill the Blank</button>
+        <button role="tab" data-mode="speak">🎤 Speak</button>
+        <button role="tab" data-mode="games">🎮 Bonus Games</button>
+      </nav>
+
+      <section id="panel-learn" class="panel">
+        <div class="learn-tools">
+          <label class="toggle"><input type="checkbox" id="optBlank"> Hide the word in sentences</label>
+          <label class="toggle"><input type="checkbox" id="optChinese" checked> Show Chinese</label>
         </div>
-        <div id="wordCards" class="word-cards"></div>
+        <ol id="wordList" class="word-list"></ol>
       </section>
 
-      <section class="lesson-section">
-        <div class="section-title">
-          <h3>C. Listen & Fill</h3>
-          <button id="shuffleQuizBtn" type="button">Shuffle</button>
+      <section id="panel-practice" class="panel" hidden>
+        <div class="practice-top">
+          <div class="progress-dots" id="progressDots" aria-label="Progress to next bonus game"></div>
+          <p id="practiceHint" class="muted"></p>
         </div>
-        <div id="quizRows" class="practice-list"></div>
+        <div id="practiceCard" class="practice-card"></div>
       </section>
 
-      <section class="lesson-section">
-        <div class="section-title">
-          <h3>D. Read Aloud Check</h3>
-          <span id="speechSupport" class="support-pill"></span>
-        </div>
-        <div id="readRows" class="practice-list"></div>
-      </section>
-
-      <section class="lesson-section cartoon-section">
-        <div class="section-title">
-          <h3>E. Make a Cartoon Strip</h3>
-          <button id="downloadStripBtn" type="button">Download</button>
-        </div>
-        <div class="cartoon-maker">
-          <label for="studentSentence">My sentence</label>
-          <textarea id="studentSentence" rows="3" placeholder="Type your funny sentence here."></textarea>
-          <div class="button-row">
-            <button id="buildPromptBtn" type="button">Make Picture Prompt</button>
-            <button id="generateCartoonBtn" type="button">Generate Cartoon</button>
-            <button id="drawStripBtn" type="button">Make Strip</button>
-          </div>
-          <p id="cartoonStatus" class="feedback">Use words from this rule and make your own sentence.</p>
-          <textarea id="cartoonPrompt" rows="5" readonly aria-label="Cartoon image prompt"></textarea>
-          <div id="generatedImageWrap" class="generated-wrap"></div>
-          <canvas id="stripCanvas" width="1200" height="520" aria-label="Cartoon strip preview"></canvas>
-        </div>
+      <section id="panel-games" class="panel" hidden>
+        <p class="games-intro">Every <b>5 correct answers</b> in Spell, Shuffle, Fill or Speak earns a 🎟️ ticket for a 1-minute bonus game.</p>
+        <div id="gameGrid" class="game-grid"></div>
+        <label class="toggle teacher-toggle"><input type="checkbox" id="optFreePlay"> Teacher: free play (no tickets needed)</label>
       </section>
     </main>
   </div>
 
+  <div id="bonusModal" class="modal" hidden>
+    <div class="modal-card">
+      <h3>🎉 Great job! 5 correct!</h3>
+      <p>You earned a ticket. Pick a 1-minute bonus game:</p>
+      <div id="bonusChoices" class="game-grid small"></div>
+      <button id="bonusLater" type="button" class="ghost">Save my ticket — keep practicing</button>
+    </div>
+  </div>
+
+  <div id="gameStage" class="game-stage" hidden>
+    <div class="game-bar">
+      <button id="gameClose" type="button" class="ghost">✕</button>
+      <div class="game-name" id="gameName"></div>
+      <div class="game-goal" id="gameGoal"></div>
+      <div class="game-score">Score <b id="gameScore">0</b></div>
+      <div class="game-time"><div id="gameTimeBar"></div><span id="gameTime">60</span></div>
+    </div>
+    <div id="gameArea" class="game-area"></div>
+    <div id="gameOver" class="game-over" hidden>
+      <div class="modal-card">
+        <h3 id="gameOverTitle">Time's up!</h3>
+        <p id="gameOverText"></p>
+        <div class="button-row">
+          <button id="gameAgain" type="button">Play again</button>
+          <button id="gameBack" type="button" class="ghost">Back to practice</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="phonics-data.js"></script>
+  <script src="word-pictures.js"></script>
+  <script src="games.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

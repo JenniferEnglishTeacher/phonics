@@ -1,0 +1,636 @@
+# id | title | sourceHeading | group | highlight
+# word|pos|中文|sentence (______ = blank)|translation
+
+## ai-ay | ai / ay (long a) | ai / ay 長母音 a | Long Vowel Teams | ai|ay
+rain|Noun|雨|Take an umbrella. It will ______ today.|帶把傘，今天會下雨。
+train|Noun|火車|We take the ______ to Kaohsiung.|我們搭火車去高雄。
+tail|Noun|尾巴|My dog wags its ______.|我的狗搖尾巴。
+snail|Noun|蝸牛|The ______ is very slow.|蝸牛非常慢。
+paint|Verb|畫；油漆|Let's ______ the wall blue.|我們把牆漆成藍色吧。
+mail|Noun|郵件|Is there any ______ for me today?|今天有我的信嗎？
+wait|Verb|等待|Please ______ for me at the door.|請在門口等我。
+chain|Noun|鏈子|The bike ______ is broken.|腳踏車的鏈條壞了。
+day|Noun|天；日子|Have a nice ______!|祝你有美好的一天！
+play|Verb|玩|Let's ______ basketball after school.|放學後我們去打籃球吧。
+tray|Noun|托盤|Put the cups on the ______.|把杯子放在托盤上。
+gray|Adjective|灰色的|The sky is ______ today.|今天天空是灰色的。
+crayon|Noun|蠟筆|Can I use your red ______?|我可以用你的紅色蠟筆嗎？
+spray|Verb|噴|Don't ______ water on me!|不要噴水在我身上！
+
+## ee-ea | ee / ea (long e) | ee / ea 長母音 e | Long Vowel Teams | ee|ea
+tree|Noun|樹|There is a bird in the ______.|樹上有一隻鳥。
+bee|Noun|蜜蜂|A ______ is on the flower.|一隻蜜蜂在花上。
+feet|Noun|腳（複數）|Wash your ______ before bed.|睡前洗腳。
+sheep|Noun|綿羊|The ______ says "baa."|綿羊叫「咩」。
+cheese|Noun|起司|I like ______ on my bread.|我喜歡麵包上加起司。
+sleep|Verb|睡覺|I ______ eight hours every night.|我每晚睡八小時。
+queen|Noun|女王；皇后|The ______ lives in a castle.|女王住在城堡裡。
+seed|Noun|種子|Put the ______ in the soil.|把種子放進土裡。
+eat|Verb|吃|Let's ______ lunch together.|我們一起吃午餐吧。
+leaf|Noun|葉子|A green ______ fell on my head.|一片綠葉掉在我頭上。
+beach|Noun|海灘|We play in the sand at the ______.|我們在海灘玩沙。
+peach|Noun|桃子|This ______ is sweet and soft.|這顆桃子又甜又軟。
+teacher|Noun|老師|Our English ______ is kind.|我們的英文老師很和善。
+read|Verb|閱讀|I ______ a book every night.|我每晚讀一本書。
+
+## oa-ow | oa / ow (long o) | oa / ow 長母音 o | Long Vowel Teams | oa|ow
+boat|Noun|船|We sail a ______ on the lake.|我們在湖上划船。
+coat|Noun|外套|Put on your ______. It's cold.|穿上外套，很冷。
+goat|Noun|山羊|The ______ eats grass.|山羊吃草。
+road|Noun|道路|Look both ways before you cross the ______.|過馬路前要左右看。
+soap|Noun|肥皂|Wash your hands with ______.|用肥皂洗手。
+toast|Noun|吐司|I eat ______ for breakfast.|我早餐吃吐司。
+coach|Noun|教練|Our ______ blows the whistle.|我們的教練吹哨子。
+float|Verb|漂浮|The duck can ______ on the water.|鴨子能浮在水上。
+snow|Noun|雪|The ______ is white and cold.|雪又白又冷。
+bowl|Noun|碗|I eat a ______ of rice.|我吃一碗飯。
+window|Noun|窗戶|Please open the ______.|請打開窗戶。
+yellow|Adjective|黃色的|A banana is ______.|香蕉是黃色的。
+pillow|Noun|枕頭|My ______ is soft.|我的枕頭很軟。
+throw|Verb|丟；投|______ the ball to me!|把球丟給我！
+
+## ie-igh | ie / igh (long i) | ie / igh 長母音 i | Long Vowel Teams | igh|ie
+pie|Noun|派|Mom made an apple ______.|媽媽做了蘋果派。
+tie|Noun|領帶|Dad wears a ______ to work.|爸爸打領帶去上班。
+lie|Verb|說謊|Don't ______ to your parents.|不要對父母說謊。
+fries|Noun|薯條|I want a burger and ______.|我想要漢堡和薯條。
+cried|Verb (past)|哭了|The baby ______ all night.|寶寶哭了一整晚。
+light|Noun|燈；光|Turn off the ______, please.|請關燈。
+night|Noun|夜晚|Good ______! Sweet dreams.|晚安！祝好夢。
+high|Adjective|高的|The bird flies ______ in the sky.|鳥在天空中飛得很高。
+right|Adjective|右邊的；正確的|Raise your ______ hand.|舉起你的右手。
+fight|Verb|打架|Don't ______ with your brother.|不要和你哥哥打架。
+flight|Noun|班機|Our ______ to Japan leaves at 9.|我們飛日本的班機九點起飛。
+bright|Adjective|明亮的|The sun is very ______.|太陽非常明亮。
+tight|Adjective|緊的|These shoes are too ______.|這雙鞋太緊了。
+thigh|Noun|大腿|I hurt my ______ in the race.|我在賽跑中弄傷了大腿。
+
+## ue-ew-ui | ue / ew / ui (long u) | ue / ew / ui 長母音 u | Long Vowel Teams | ue|ew|ui
+blue|Adjective|藍色的|The sky is ______.|天空是藍色的。
+glue|Noun|膠水|Use ______ to stick the paper.|用膠水黏紙。
+clue|Noun|線索|Give me a ______, please.|請給我一個提示。
+statue|Noun|雕像|Look at the big ______ in the park.|看公園裡那座大雕像。
+rescue|Verb|救援|Firefighters ______ people.|消防員救人。
+new|Adjective|新的|I have a ______ bike.|我有一台新腳踏車。
+few|Adjective|少數的|I have a ______ friends here.|我在這裡有幾個朋友。
+chew|Verb|咀嚼|______ your food slowly.|慢慢嚼你的食物。
+flew|Verb (past)|飛了|The bird ______ away.|鳥飛走了。
+grew|Verb (past)|長大了|The plant ______ very tall.|植物長得很高。
+stew|Noun|燉菜|Grandma makes beef ______.|奶奶做燉牛肉。
+fruit|Noun|水果|Eat more ______ and vegetables.|多吃蔬菜水果。
+juice|Noun|果汁|I drink orange ______.|我喝柳橙汁。
+suit|Noun|西裝|He wears a black ______.|他穿黑色西裝。
+
+## y-long-i | y = long i (my) | y 發長音 i | Long Vowel Teams | y
+my|Pronoun|我的|This is ______ cat.|這是我的貓。
+by|Prep|搭乘；在旁邊|I go to school ______ bus.|我搭公車上學。
+fly|Verb|飛|Birds can ______.|鳥會飛。
+sky|Noun|天空|The ______ is blue today.|今天天空是藍的。
+cry|Verb|哭|Don't ______. It's OK.|別哭，沒事的。
+dry|Adjective|乾的|My shirt is ______ now.|我的襯衫現在乾了。
+try|Verb|嘗試|______ again. You can do it!|再試一次，你做得到！
+shy|Adjective|害羞的|The new student is ______.|新同學很害羞。
+why|Adverb|為什麼|______ are you late?|你為什麼遲到？
+spy|Noun|間諜|The ______ wears dark glasses.|那個間諜戴著墨鏡。
+fry|Verb|油炸|Mom will ______ some eggs.|媽媽會煎幾顆蛋。
+July|Noun|七月|Summer vacation starts in ______.|暑假在七月開始。
+reply|Verb|回覆|Please ______ to my message.|請回覆我的訊息。
+butterfly|Noun|蝴蝶|A ______ is on the flower.|一隻蝴蝶在花上。
+
+## y-long-e | y = long e (happy) | y 發長音 e | Long Vowel Teams | y\b
+happy|Adjective|快樂的|I am ______ today.|我今天很快樂。
+baby|Noun|嬰兒|The ______ is sleeping.|寶寶在睡覺。
+candy|Noun|糖果|Don't eat too much ______.|不要吃太多糖果。
+funny|Adjective|好笑的|The clown is very ______.|小丑非常好笑。
+puppy|Noun|小狗|The ______ wants to play.|小狗想玩。
+bunny|Noun|小兔子|The ______ eats a carrot.|小兔子吃紅蘿蔔。
+family|Noun|家庭|I love my ______.|我愛我的家人。
+party|Noun|派對|Come to my birthday ______!|來我的生日派對！
+pony|Noun|小馬|The girl rides a ______.|女孩騎小馬。
+lady|Noun|女士|The ______ has a red hat.|那位女士戴著紅帽子。
+cherry|Noun|櫻桃|I put a ______ on the cake.|我在蛋糕上放一顆櫻桃。
+twenty|Number|二十|There are ______ students in my class.|我們班有二十個學生。
+windy|Adjective|颳風的|It is ______ today. Hold your hat!|今天風很大，抓好帽子！
+body|Noun|身體|Exercise is good for your ______.|運動對身體好。
+
+## oo-long | oo (long, moon) | 長 oo /u/ | Other Vowel Sounds | oo
+moon|Noun|月亮|The ______ is round tonight.|今晚月亮很圓。
+spoon|Noun|湯匙|Eat your soup with a ______.|用湯匙喝湯。
+food|Noun|食物|I love Taiwanese ______.|我愛台灣食物。
+pool|Noun|游泳池|Let's swim in the ______.|我們去游泳池游泳吧。
+zoo|Noun|動物園|We see pandas at the ______.|我們在動物園看到熊貓。
+school|Noun|學校|I walk to ______ every day.|我每天走路上學。
+boot|Noun|靴子|I wear ______s in the rain.|下雨時我穿靴子。
+roof|Noun|屋頂|A cat is on the ______.|一隻貓在屋頂上。
+tooth|Noun|牙齒|My ______ hurts.|我的牙齒痛。
+goose|Noun|鵝|The ______ is white.|那隻鵝是白色的。
+broom|Noun|掃把|Sweep the floor with a ______.|用掃把掃地。
+noon|Noun|中午|We eat lunch at ______.|我們中午吃午餐。
+balloon|Noun|氣球|I have a red ______.|我有一顆紅氣球。
+rooster|Noun|公雞|The ______ crows in the morning.|公雞早上會啼叫。
+
+## oo-short | oo (short, book) | 短 oo /ʊ/ | Other Vowel Sounds | oo
+book|Noun|書|Open your ______ to page ten.|把書翻到第十頁。
+cook|Verb|煮飯|Dad likes to ______ dinner.|爸爸喜歡煮晚餐。
+look|Verb|看|______ at the rainbow!|看那道彩虹！
+foot|Noun|腳|I hurt my left ______.|我傷了左腳。
+good|Adjective|好的|You did a ______ job!|你做得很好！
+wood|Noun|木頭|The table is made of ______.|這張桌子是木頭做的。
+hook|Noun|鉤子|Hang your bag on the ______.|把你的袋子掛在鉤子上。
+wool|Noun|羊毛|This sweater is made of ______.|這件毛衣是羊毛做的。
+cookie|Noun|餅乾|Can I have a ______?|我可以吃一片餅乾嗎？
+hood|Noun|帽兜|Put on your ______. It's raining.|戴上帽兜，下雨了。
+stood|Verb (past)|站立（過去式）|He ______ up and said hello.|他站起來打招呼。
+took|Verb (past)|拿（過去式）|She ______ a photo of the cat.|她拍了一張貓的照片。
+football|Noun|足球；美式足球|They play ______ on Sunday.|他們星期天踢足球。
+shook|Verb (past)|搖（過去式）|He ______ my hand.|他和我握手。
+
+## ea-short | ea = short e (bread) | ea 發短音 e | Other Vowel Sounds | ea
+head|Noun|頭|Put a hat on your ______.|把帽子戴在頭上。
+bread|Noun|麵包|I buy ______ at the bakery.|我在麵包店買麵包。
+breakfast|Noun|早餐|What do you eat for ______?|你早餐吃什麼？
+sweater|Noun|毛衣|Wear a ______. It's cold.|穿件毛衣，很冷。
+weather|Noun|天氣|How is the ______ today?|今天天氣如何？
+feather|Noun|羽毛|The bird has a blue ______.|那隻鳥有一根藍羽毛。
+heavy|Adjective|重的|This box is too ______.|這個箱子太重了。
+ready|Adjective|準備好的|Are you ______? Let's go!|你準備好了嗎？走吧！
+health|Noun|健康|Sleep is good for your ______.|睡眠對健康有益。
+thread|Noun|線|I need a needle and ______.|我需要針和線。
+spread|Verb|塗抹|______ jam on the bread.|在麵包上塗果醬。
+leather|Noun|皮革|This is a ______ bag.|這是一個皮包。
+meadow|Noun|草地|Cows eat grass in the ______.|牛在草地上吃草。
+instead|Adverb|反而；代替|I'm tired. Let's stay home ______.|我累了，我們改待在家吧。
+
+## ur-er | ur /er/ | ur:ㄦ | R-Controlled Vowels | ur
+fur|Noun|毛皮|My cat has soft ______.|我的貓有柔軟的毛。
+burn|Verb|燒傷；燃燒|Be careful! Don't ______ your hand.|小心！別燙到手。
+hurt|Verb|受傷；疼痛|My leg ______s.|我的腿痛。
+turn|Verb|轉彎|______ left at the corner.|在轉角左轉。
+nurse|Noun|護理師|The ______ helps sick people.|護理師幫助病人。
+purple|Adjective|紫色的|Grapes are ______.|葡萄是紫色的。
+purse|Noun|錢包|Mom keeps money in her ______.|媽媽把錢放在錢包裡。
+turtle|Noun|烏龜|The ______ walks slowly.|烏龜走得很慢。
+church|Noun|教堂|They go to ______ on Sunday.|他們星期天去教堂。
+curl|Verb|捲曲|The cat ______s up and sleeps.|貓捲成一團睡覺。
+surf|Verb|衝浪|We ______ at the beach in summer.|我們夏天在海灘衝浪。
+Thursday|Noun|星期四|We have P.E. class on ______.|我們星期四有體育課。
+hamburger|Noun|漢堡|I want a ______ and a Coke.|我要一個漢堡和一杯可樂。
+curtain|Noun|窗簾|Close the ______, please.|請拉上窗簾。
+
+## air-are | air / are / ear (/ɛr/) | air / are / ear ㄝㄦ | R-Controlled Vowels | air|are|ear
+hair|Noun|頭髮|She has long black ______.|她有一頭黑色長髮。
+chair|Noun|椅子|Sit on the ______, please.|請坐在椅子上。
+pair|Noun|一雙；一對|I need a new ______ of shoes.|我需要一雙新鞋。
+stairs|Noun|樓梯|Walk up the ______ slowly.|慢慢走上樓梯。
+airport|Noun|機場|We go to the ______ by MRT.|我們搭捷運去機場。
+fair|Adjective|公平的|That's not ______!|那不公平！
+repair|Verb|修理|Dad can ______ my bike.|爸爸會修我的腳踏車。
+care|Verb|在乎；照顧|I ______ about my friends.|我很在乎我的朋友。
+share|Verb|分享|Let's ______ the cake.|我們分享這塊蛋糕吧。
+square|Noun|正方形|Draw a ______ on the paper.|在紙上畫一個正方形。
+scared|Adjective|害怕的|I am ______ of the dark.|我怕黑。
+bear|Noun|熊|The ______ likes honey.|熊喜歡蜂蜜。
+pear|Noun|梨子|This ______ is juicy.|這顆梨子很多汁。
+wear|Verb|穿；戴|______ a jacket. It's cold.|穿件夾克，很冷。
+
+## ear-eer | ear / eer (/ɪr/) | ear / eer ㄧㄦ | R-Controlled Vowels | ear|eer
+ear|Noun|耳朵|I have two ______s.|我有兩隻耳朵。
+hear|Verb|聽見|Can you ______ me?|你聽得到我嗎？
+near|Prep|靠近|My home is ______ the park.|我家靠近公園。
+year|Noun|年|I am ten ______s old.|我十歲。
+dear|Adjective|親愛的|______ Grandma, I miss you.|親愛的奶奶，我想你。
+clear|Adjective|清澈的；清楚的|The water is ______.|水很清澈。
+beard|Noun|鬍子|Santa has a white ______.|聖誕老人有白鬍子。
+fear|Noun|恐懼|She has a ______ of snakes.|她怕蛇。
+earring|Noun|耳環|She has a gold ______.|她有一個金耳環。
+spear|Noun|矛|The hunter holds a ______.|獵人拿著一支矛。
+deer|Noun|鹿|A ______ runs in the forest.|一隻鹿在森林裡跑。
+cheer|Verb|歡呼；加油|We ______ for our team.|我們為我們的隊伍加油。
+steer|Verb|駕駛；掌舵|You ______ a car with the wheel.|你用方向盤駕駛汽車。
+engineer|Noun|工程師|My mom is an ______.|我媽媽是工程師。
+
+## ore-oar | ore / oar / our (/or/) | ore / oar / our ㄛㄦ | R-Controlled Vowels | ore|oar|our
+more|Adjective|更多的|Can I have ______ rice?|我可以再多一點飯嗎？
+before|Prep|在…之前|Wash your hands ______ dinner.|晚餐前要洗手。
+shore|Noun|岸邊|We walk along the ______.|我們沿著岸邊走。
+snore|Verb|打鼾|My dad ______s at night.|我爸爸晚上會打鼾。
+chore|Noun|家事|Washing dishes is my ______.|洗碗是我的家事。
+wore|Verb (past)|穿（過去式）|She ______ a pink dress.|她穿了一件粉紅洋裝。
+board|Noun|板子|Write your name on the ______.|把名字寫在黑板上。
+roar|Verb|吼叫|Lions ______ loudly.|獅子大聲吼叫。
+oar|Noun|槳|Hold the ______ and row the boat.|拿著槳划船。
+boar|Noun|野豬|A wild ______ lives in the forest.|一隻野豬住在森林裡。
+four|Number|四|I have ______ pencils.|我有四枝鉛筆。
+pour|Verb|倒|______ some milk into the cup.|倒一些牛奶到杯子裡。
+your|Pronoun|你的|Is this ______ bag?|這是你的袋子嗎？
+court|Noun|球場|We play on the basketball ______.|我們在籃球場打球。
+
+## war-wor | war /wor/ & wor /wer/ | war ㄨㄛㄦ / wor ㄨㄦ | R-Controlled Vowels | war|wor
+warm|Adjective|溫暖的|The soup is ______.|湯是溫的。
+war|Noun|戰爭|Nobody wants a ______.|沒有人想要戰爭。
+warn|Verb|警告|I ______ you: the dog bites!|我警告你：那隻狗會咬人！
+reward|Noun|獎勵|You get a ______ for good work.|表現好就有獎勵。
+dwarf|Noun|小矮人|Snow White meets seven ______s.|白雪公主遇見七個小矮人。
+quarter|Noun|四分之一|Cut the cake into ______s.|把蛋糕切成四塊。
+swarm|Noun|一大群|A ______ of bees flies by.|一大群蜜蜂飛過。
+work|Verb|工作|My parents ______ in Taipei.|我爸媽在台北工作。
+word|Noun|字|Spell the ______ "cat."|拼出 cat 這個字。
+world|Noun|世界|I want to travel around the ______.|我想環遊世界。
+worm|Noun|蟲|The bird eats a ______.|鳥吃一隻蟲。
+worse|Adjective|更糟的|My cold is ______ today.|我的感冒今天更嚴重了。
+worth|Adjective|值得的|This book is ______ reading.|這本書值得一讀。
+homework|Noun|功課|Finish your ______ first.|先寫完功課。
+
+## fl-blend | fl- Blend | fl- Blend | L-Blends | fl
+flag|Noun|旗子|Wave the ______!|揮舞旗子！
+fly|Verb|飛|I want to ______ like a bird.|我想像鳥一樣飛。
+flower|Noun|花|This ______ smells nice.|這朵花很香。
+flat|Adjective|平的；（輪胎）沒氣的|My bike has a ______ tire.|我的腳踏車爆胎了。
+flame|Noun|火焰|Blow out the ______ on the candle.|吹熄蠟燭的火焰。
+flip|Verb|翻轉|______ the pancake over.|把鬆餅翻面。
+float|Verb|漂浮|Leaves ______ on the water.|葉子漂在水面上。
+floor|Noun|地板|Don't sit on the ______.|不要坐在地板上。
+flute|Noun|長笛|She plays the ______.|她吹長笛。
+flu|Noun|流感|I have the ______. I need to rest.|我得了流感，需要休息。
+flood|Noun|水災|The heavy rain caused a ______.|大雨造成水災。
+flea|Noun|跳蚤|The dog has a ______.|那隻狗身上有跳蚤。
+flashlight|Noun|手電筒|Use a ______ in the dark.|在黑暗中使用手電筒。
+flavor|Noun|口味|What ______ of ice cream do you like?|你喜歡什麼口味的冰淇淋？
+
+## gl-blend | gl- Blend | gl- Blend | L-Blends | gl
+glad|Adjective|高興的|I'm ______ to see you.|很高興見到你。
+glass|Noun|玻璃杯|Drink a ______ of water.|喝一杯水。
+glasses|Noun|眼鏡|Grandpa wears ______.|爺爺戴眼鏡。
+glove|Noun|手套|I lost my ______.|我弄丟了手套。
+glue|Noun|膠水|I need some ______.|我需要一些膠水。
+globe|Noun|地球儀|Find Taiwan on the ______.|在地球儀上找出台灣。
+glow|Verb|發光|The stars ______ at night.|星星在夜晚發光。
+glide|Verb|滑行|The bird can ______ in the sky.|鳥能在天空滑翔。
+glitter|Noun|亮粉|Her card has gold ______.|她的卡片上有金色亮粉。
+gloomy|Adjective|陰暗的；憂鬱的|It is a ______ day.|今天是個陰沉的日子。
+glance|Verb|瞥一眼|______ at the clock.|看一眼時鐘。
+glory|Noun|榮耀|The team won ______.|那支隊伍贏得了榮耀。
+glider|Noun|滑翔機|The ______ flies without an engine.|滑翔機沒有引擎也能飛。
+gleam|Verb|閃爍|Her eyes ______ with joy.|她的眼睛閃耀著喜悅。
+
+## dr-blend | dr- Blend | dr- Blend | R-Blends | dr
+draw|Verb|畫|I like to ______ cats.|我喜歡畫貓。
+drum|Noun|鼓|He plays the ______.|他打鼓。
+dress|Noun|洋裝|She has a pretty ______.|她有一件漂亮的洋裝。
+drink|Verb|喝|______ some water.|喝點水。
+drive|Verb|開車|My mom can ______ a car.|我媽媽會開車。
+dragon|Noun|龍|The ______ breathes fire.|龍會噴火。
+drop|Verb|掉落|Don't ______ the eggs!|別把蛋掉了！
+dream|Noun|夢|I had a funny ______.|我做了一個好笑的夢。
+drill|Noun|電鑽|Dad uses a ______ to make a hole.|爸爸用電鑽打洞。
+drip|Verb|滴|Water ______s from the tap.|水從水龍頭滴下來。
+drawer|Noun|抽屜|The socks are in the ______.|襪子在抽屜裡。
+driver|Noun|司機|The bus ______ is friendly.|公車司機很友善。
+drag|Verb|拖|______ the box to the door.|把箱子拖到門口。
+dry|Adjective|乾的|Use a ______ towel.|用一條乾毛巾。
+
+## fr-blend | fr- Blend | fr- Blend | R-Blends | fr
+frog|Noun|青蛙|The ______ jumps into the pond.|青蛙跳進池塘。
+fruit|Noun|水果|Apples are my favorite ______.|蘋果是我最愛的水果。
+friend|Noun|朋友|Ann is my best ______.|安是我最好的朋友。
+free|Adjective|免費的；有空的|Are you ______ on Sunday?|你星期天有空嗎？
+fresh|Adjective|新鮮的|The fish is very ______.|這條魚很新鮮。
+fry|Verb|油炸|Let's ______ some chicken.|我們來炸雞吧。
+French|Adjective|法國的|I love ______ fries.|我愛薯條。
+front|Noun|前面|Stand in ______ of the door.|站在門前。
+frame|Noun|框|Put the photo in a ______.|把照片放進相框裡。
+freeze|Verb|結冰；凍住|Water will ______ in the freezer.|水在冷凍庫會結冰。
+Friday|Noun|星期五|We have a test on ______.|我們星期五有考試。
+fridge|Noun|冰箱|The milk is in the ______.|牛奶在冰箱裡。
+frown|Verb|皺眉|Don't ______. Smile!|別皺眉，笑一個！
+frost|Noun|霜|There is ______ on the grass.|草地上有霜。
+
+## gr-blend | gr- Blend | gr- Blend | R-Blends | gr
+green|Adjective|綠色的|Frogs are ______.|青蛙是綠色的。
+grass|Noun|草|Don't walk on the ______.|不要踩草地。
+grape|Noun|葡萄|I like purple ______s.|我喜歡紫葡萄。
+gray|Adjective|灰色的|The elephant is ______.|大象是灰色的。
+grow|Verb|生長|Plants need water to ______.|植物需要水才能生長。
+grandma|Noun|奶奶；外婆|My ______ makes dumplings.|我奶奶會包水餃。
+grade|Noun|年級；成績|I am in the third ______.|我讀三年級。
+great|Adjective|很棒的|You did a ______ job!|你做得太棒了！
+ground|Noun|地面|The ball is on the ______.|球在地上。
+group|Noun|組；團體|Work in a ______ of four.|四個人一組合作。
+growl|Verb|低吼|The dog ______s at the cat.|狗對貓低吼。
+grin|Verb|咧嘴笑|He ______s from ear to ear.|他笑得合不攏嘴。
+grill|Verb|燒烤|Let's ______ meat on Moon Festival.|中秋節我們來烤肉吧。
+grab|Verb|抓取|______ your bag. Let's go!|拿起你的包包，走吧！
+
+## tr-blend | tr- Blend | tr- Blend | R-Blends | tr
+tree|Noun|樹|The ______ is very tall.|這棵樹很高。
+train|Noun|火車|The ______ is fast.|火車很快。
+truck|Noun|卡車|A big ______ is on the road.|路上有一台大卡車。
+trip|Noun|旅行|We take a ______ to Tainan.|我們去台南旅行。
+trap|Noun|陷阱|The mouse is in the ______.|老鼠在陷阱裡。
+try|Verb|嘗試|______ this cake. It's yummy!|試試這個蛋糕，很好吃！
+trumpet|Noun|小號|He plays the ______ in the band.|他在樂團吹小號。
+tractor|Noun|拖拉機|The farmer drives a ______.|農夫開拖拉機。
+track|Noun|跑道|We run on the ______.|我們在跑道上跑步。
+trick|Noun|把戲；魔術|Show me a magic ______.|表演一個魔術給我看。
+triangle|Noun|三角形|A ______ has three sides.|三角形有三個邊。
+trophy|Noun|獎盃|Our team won a ______.|我們隊贏了一座獎盃。
+treasure|Noun|寶藏|The pirate finds the ______.|海盜找到寶藏。
+trail|Noun|小徑|We hike on a mountain ______.|我們在山間小徑健行。
+
+## tw-blend | tw- Blend | tw- Blend | S- & Other Blends | tw
+twin|Noun|雙胞胎|Amy has a ______ sister.|艾美有一個雙胞胎姊妹。
+twelve|Number|十二|There are ______ months in a year.|一年有十二個月。
+twenty|Number|二十|I have ______ dollars.|我有二十元。
+twist|Verb|扭轉|______ the cap to open it.|轉開瓶蓋。
+tweet|Verb|（鳥）啾啾叫|Little birds ______ in the morning.|小鳥早上啾啾叫。
+twice|Adverb|兩次|I brush my teeth ______ a day.|我一天刷兩次牙。
+twig|Noun|細樹枝|The bird uses a ______ to make a nest.|鳥用細枝築巢。
+twinkle|Verb|閃爍|Stars ______ in the night sky.|星星在夜空中閃爍。
+tweezers|Noun|鑷子|Use ______ to pick it up.|用鑷子把它夾起來。
+twirl|Verb|旋轉|The dancer can ______ fast.|舞者可以快速旋轉。
+between|Prep|在…之間|The cat is ______ the boxes.|貓在箱子之間。
+twilight|Noun|黃昏；暮光|The sky is pink at ______.|黃昏時天空是粉紅色的。
+twister|Noun|龍捲風|A ______ is a strong wind.|龍捲風是很強的風。
+twelfth|Number|第十二|December is the ______ month.|十二月是第十二個月。
+
+## spr-spl-blend | spr- / spl- Blend | spr- / spl- Blend | 3-Letter Blends | spr|spl
+spring|Noun|春天|Flowers bloom in ______.|花在春天綻放。
+spray|Verb|噴|______ water on the plants.|在植物上噴水。
+spread|Verb|塗抹|______ butter on the toast.|在吐司上塗奶油。
+sprout|Noun|新芽|A little ______ comes out of the seed.|一個小芽從種子冒出來。
+sprinkle|Verb|撒|______ some sugar on top.|在上面撒一些糖。
+sprint|Verb|衝刺|______ to the finish line!|衝向終點線！
+sprain|Verb|扭傷|I ______ed my ankle.|我扭傷了腳踝。
+sprinkler|Noun|灑水器|The ______ waters the grass.|灑水器在澆草地。
+springtime|Noun|春季|Birds sing in ______.|鳥兒在春天歌唱。
+splash|Verb|潑濺|Kids ______ in the pool.|孩子們在泳池裡玩水。
+split|Verb|分開|Let's ______ the pizza.|我們把披薩分了吧。
+splat|Noun|啪的一聲|The egg fell with a ______.|蛋啪的一聲掉下去。
+splinter|Noun|木刺|I have a ______ in my finger.|我手指裡有一根木刺。
+splendid|Adjective|壯麗的；極好的|What a ______ view!|多棒的景色啊！
+
+## str-blend | str- Blend | str- Blend | 3-Letter Blends | str
+street|Noun|街道|I live on Main ______.|我住在中正路。
+string|Noun|細繩|Tie the box with ______.|用細繩綁箱子。
+strong|Adjective|強壯的|My dad is very ______.|我爸爸非常強壯。
+straw|Noun|吸管|Drink the juice with a ______.|用吸管喝果汁。
+strawberry|Noun|草莓|This ______ is red and sweet.|這顆草莓又紅又甜。
+stripe|Noun|條紋|A zebra has black and white ______s.|斑馬有黑白條紋。
+stream|Noun|小溪|Fish swim in the ______.|魚在小溪裡游。
+stretch|Verb|伸展|______ your arms before you run.|跑步前伸展手臂。
+strange|Adjective|奇怪的|I heard a ______ noise.|我聽到一個奇怪的聲音。
+stranger|Noun|陌生人|Don't talk to a ______.|不要跟陌生人說話。
+strict|Adjective|嚴格的|Our teacher is ______.|我們老師很嚴格。
+stress|Noun|壓力|Exams give me ______.|考試讓我有壓力。
+strike|Verb|打擊；敲|The clock will ______ twelve.|時鐘會敲十二下。
+stroll|Verb|散步|Let's ______ in the park.|我們去公園散步吧。
+
+## qu-squ | qu / squ (/kw/) | qu / squ ㄎㄨ | 3-Letter Blends | squ|qu
+queen|Noun|女王|The ______ wears a crown.|女王戴著皇冠。
+quiet|Adjective|安靜的|Please be ______ in the library.|在圖書館請保持安靜。
+quick|Adjective|快的|Be ______! The bus is here.|快點！公車來了。
+quiz|Noun|小考|We have a spelling ______ today.|我們今天有拼字小考。
+quilt|Noun|被子|Grandma made this ______.|這條被子是奶奶做的。
+quack|Verb|（鴨）呱呱叫|Ducks ______.|鴨子呱呱叫。
+question|Noun|問題|May I ask a ______?|我可以問一個問題嗎？
+square|Noun|正方形|A ______ has four sides.|正方形有四個邊。
+squirrel|Noun|松鼠|The ______ eats nuts.|松鼠吃堅果。
+squid|Noun|魷魚|I like grilled ______.|我喜歡烤魷魚。
+squeeze|Verb|擠|______ the lemon into the tea.|把檸檬擠進茶裡。
+squeak|Verb|吱吱叫|Mice ______.|老鼠吱吱叫。
+squash|Noun|南瓜類；壁球|Mom cooks ______ soup.|媽媽煮南瓜湯。
+squat|Verb|蹲|______ down and touch the floor.|蹲下摸地板。
+
+## thr-shr-blend | thr- / shr- Blend | thr- / shr- Blend | 3-Letter Blends | thr|shr
+three|Number|三|I have ______ cats.|我有三隻貓。
+throw|Verb|丟|______ the trash in the can.|把垃圾丟進垃圾桶。
+threw|Verb (past)|丟（過去式）|He ______ the ball to me.|他把球丟給我。
+throat|Noun|喉嚨|I have a sore ______.|我喉嚨痛。
+throne|Noun|王座|The king sits on the ______.|國王坐在王座上。
+thread|Noun|線|Put the ______ through the needle.|把線穿過針。
+through|Prep|穿過|The train goes ______ the tunnel.|火車穿過隧道。
+thrill|Noun|刺激；興奮|The roller coaster is a ______!|雲霄飛車好刺激！
+shrimp|Noun|蝦子|I love fried ______.|我愛炸蝦。
+shrink|Verb|縮水|My shirt will ______ in hot water.|我的襯衫在熱水裡會縮水。
+shrub|Noun|灌木|There is a ______ by the door.|門邊有一叢灌木。
+shred|Verb|切碎；撕碎|______ the paper into pieces.|把紙撕成碎片。
+shriek|Verb|尖叫|She ______s when she sees a bug.|她看到蟲就尖叫。
+shrug|Verb|聳肩|He ______s and says "I don't know."|他聳聳肩說「我不知道」。
+
+## final-blends | Final blends (-nd -nt -mp -st -sk -ft -lk -lt) | 字尾子音結合 | Final Blends | nd\b|nt\b|mp\b|st\b|sk\b|ft\b|lk\b|lt\b
+hand|Noun|手|Raise your ______.|舉起你的手。
+sand|Noun|沙子|Kids play in the ______.|孩子們在沙子裡玩。
+pond|Noun|池塘|Ducks swim in the ______.|鴨子在池塘裡游泳。
+wind|Noun|風|The ______ is strong today.|今天風很強。
+tent|Noun|帳篷|We sleep in a ______.|我們睡在帳篷裡。
+plant|Noun|植物|Water the ______ every day.|每天幫植物澆水。
+mint|Noun|薄荷|I like ______ ice cream.|我喜歡薄荷冰淇淋。
+lamp|Noun|燈|Turn on the ______.|打開檯燈。
+jump|Verb|跳|Frogs can ______ high.|青蛙可以跳得很高。
+camp|Verb|露營|Let's ______ by the river.|我們在河邊露營吧。
+nest|Noun|鳥巢|There are eggs in the ______.|鳥巢裡有蛋。
+desk|Noun|書桌|My book is on the ______.|我的書在書桌上。
+mask|Noun|口罩；面具|Wear a ______ on the MRT.|搭捷運戴口罩。
+gift|Noun|禮物|This ______ is for you.|這份禮物是給你的。
+milk|Noun|牛奶|I drink ______ every morning.|我每天早上喝牛奶。
+belt|Noun|皮帶；安全帶|Put on your seat ______.|繫上安全帶。
+
+## ck | ck /k/ | ck = k | Consonant Digraphs | ck
+duck|Noun|鴨子|The ______ swims in the pond.|鴨子在池塘裡游泳。
+sock|Noun|襪子|I lost one ______.|我掉了一隻襪子。
+clock|Noun|時鐘|The ______ is on the wall.|時鐘在牆上。
+rock|Noun|石頭|Don't throw a ______.|不要丟石頭。
+kick|Verb|踢|______ the ball into the goal!|把球踢進球門！
+back|Noun|背；後面|My ______ hurts.|我的背痛。
+neck|Noun|脖子|A giraffe has a long ______.|長頸鹿有長脖子。
+truck|Noun|卡車|The ______ is full of boxes.|卡車裝滿了箱子。
+sick|Adjective|生病的|I am ______ today.|我今天生病了。
+chicken|Noun|雞；雞肉|I like fried ______.|我喜歡炸雞。
+jacket|Noun|夾克|Put on your ______.|穿上你的夾克。
+pocket|Noun|口袋|The key is in my ______.|鑰匙在我的口袋裡。
+rocket|Noun|火箭|The ______ flies to the moon.|火箭飛向月球。
+black|Adjective|黑色的|My cat is ______.|我的貓是黑色的。
+
+## tch | tch /tʃ/ | tch ㄑ | Consonant Digraphs | tch
+catch|Verb|接住|______ the ball!|接住球！
+match|Noun|比賽；火柴|We won the ______.|我們贏了比賽。
+watch|Verb|看|I ______ TV after dinner.|我晚餐後看電視。
+kitchen|Noun|廚房|Mom is in the ______.|媽媽在廚房。
+witch|Noun|女巫|The ______ has a black cat.|女巫有一隻黑貓。
+switch|Noun|開關|Turn on the light ______.|打開電燈開關。
+stitch|Noun|一針；縫線|The doctor gave me three ______es.|醫生幫我縫了三針。
+ditch|Noun|水溝|The ball fell into the ______.|球掉進水溝裡。
+patch|Noun|補丁|My jeans have a ______.|我的牛仔褲有一塊補丁。
+sketch|Verb|素描|______ a tree in your notebook.|在筆記本上素描一棵樹。
+fetch|Verb|去拿來|Dogs can ______ a ball.|狗會把球撿回來。
+scratch|Verb|抓；刮|Don't ______ the mosquito bite.|不要抓蚊子咬的地方。
+pitch|Verb|投（球）|He can ______ the ball fast.|他能投出快速球。
+itch|Verb|發癢|My arm ______es.|我的手臂好癢。
+
+## x-ks | x /ks/ | x ㄎㄙ | Double & Other Consonants | x
+box|Noun|箱子|Put the toys in the ______.|把玩具放進箱子裡。
+fox|Noun|狐狸|The ______ is clever.|狐狸很聰明。
+six|Number|六|I get up at ______ o'clock.|我六點起床。
+mix|Verb|混合|______ the eggs and milk.|把蛋和牛奶混在一起。
+fix|Verb|修理|Can you ______ my toy?|你能修我的玩具嗎？
+wax|Noun|蠟|Candles are made of ______.|蠟燭是蠟做的。
+ox|Noun|公牛|The ______ pulls the cart.|公牛拉車。
+taxi|Noun|計程車|Let's take a ______.|我們搭計程車吧。
+relax|Verb|放鬆|Sit down and ______.|坐下來放鬆一下。
+next|Adjective|下一個|See you ______ week!|下週見！
+text|Verb|傳簡訊|______ me when you get home.|到家時傳訊息給我。
+mailbox|Noun|信箱|The letter is in the ______.|信在信箱裡。
+sixty|Number|六十|There are ______ minutes in an hour.|一小時有六十分鐘。
+exit|Noun|出口|Where is the ______?|出口在哪裡？
+
+## floss | ff / ll / ss / zz (FLOSS rule) | 雙子音 ff ll ss zz | Double & Other Consonants | ff|ll|ss|zz
+puff|Verb|吹氣；噴煙|The dragon ______s smoke.|龍噴出煙。
+cliff|Noun|懸崖|Don't stand near the ______.|不要站在懸崖邊。
+stuff|Noun|東西|Put your ______ in your bag.|把你的東西放進包包。
+off|Adverb|關掉；離開|Turn ______ the TV.|關掉電視。
+bell|Noun|鈴|The school ______ rings.|學校的鐘聲響了。
+doll|Noun|洋娃娃|She has a cute ______.|她有一個可愛的洋娃娃。
+hill|Noun|小山丘|We walk up the ______.|我們走上山丘。
+shell|Noun|貝殼|I found a ______ on the beach.|我在海灘找到一個貝殼。
+kiss|Verb|親吻|Mom gives me a ______ every night.|媽媽每晚親我一下。
+mess|Noun|一團亂|Your room is a ______!|你的房間一團亂！
+boss|Noun|老闆|My dad's ______ is nice.|我爸爸的老闆人很好。
+buzz|Verb|嗡嗡叫|Bees ______ around the flowers.|蜜蜂在花旁嗡嗡飛。
+jazz|Noun|爵士樂|My uncle likes ______ music.|我叔叔喜歡爵士樂。
+fizz|Verb|冒泡|Soda water ______es.|汽水會冒泡。
+
+## all | -all /ɔl/ | -all ㄛㄌ | Double & Other Consonants | all
+all|Adjective|全部的|______ the students are here.|所有學生都到了。
+ball|Noun|球|Kick the ______ to me.|把球踢給我。
+call|Verb|打電話|______ me tonight.|今晚打電話給我。
+fall|Verb|跌倒；落下|Be careful! Don't ______.|小心！別跌倒。
+hall|Noun|大廳；走廊|Don't run in the ______.|不要在走廊上跑。
+mall|Noun|購物中心|We go shopping at the ______.|我們在購物中心逛街。
+tall|Adjective|高的|My brother is very ______.|我哥哥很高。
+wall|Noun|牆|There is a map on the ______.|牆上有一張地圖。
+small|Adjective|小的|The mouse is ______.|老鼠很小。
+stall|Noun|攤位|I buy tea at the night market ______.|我在夜市攤位買茶。
+baseball|Noun|棒球|Let's play ______!|我們來打棒球吧！
+waterfall|Noun|瀑布|The ______ is beautiful.|瀑布很美。
+snowball|Noun|雪球|Let's throw a ______.|我們來丟雪球吧。
+hallway|Noun|走廊|My locker is in the ______.|我的置物櫃在走廊上。
+
+## mb-silent-b | mb / bt (silent b) | 不發音的 b | Silent Letters | mb|bt
+lamb|Noun|小羊|The ______ is white and soft.|小羊又白又軟。
+thumb|Noun|大拇指|Give me a ______s-up!|給我比個讚！
+climb|Verb|爬|Monkeys ______ trees.|猴子爬樹。
+comb|Noun|梳子|Use a ______ for your hair.|用梳子梳頭髮。
+bomb|Noun|炸彈|The ______ went off.|炸彈爆炸了。
+crumb|Noun|麵包屑|There are ______s on the table.|桌上有麵包屑。
+numb|Adjective|麻木的|My fingers are ______ from the cold.|我的手指凍到麻了。
+limb|Noun|四肢；大樹枝|A bird sits on the tree ______.|一隻鳥坐在樹枝上。
+plumber|Noun|水電工|Call a ______ to fix the pipe.|打電話叫水電工修水管。
+tomb|Noun|墳墓|We visit Grandpa's ______ on Tomb Sweeping Day.|清明節我們去掃爺爺的墓。
+honeycomb|Noun|蜂巢|Bees make a ______.|蜜蜂築蜂巢。
+climber|Noun|攀登者|The ______ reached the top.|登山者到達了山頂。
+doubt|Noun|懷疑|There is no ______. You are right.|毫無疑問，你是對的。
+debt|Noun|債務|He paid his ______.|他還清了債。
+
+## gn-silent-g | gn (silent g) | 不發音的 g | Silent Letters | gn
+sign|Noun|標誌|Read the ______: "No Parking."|看標誌：「禁止停車」。
+design|Verb|設計|I want to ______ a T-shirt.|我想設計一件T恤。
+assign|Verb|指派|The teacher will ______ homework.|老師會出功課。
+align|Verb|對齊|______ the desks in rows.|把桌子排成一排一排。
+resign|Verb|辭職|He will ______ from his job.|他會辭掉工作。
+reign|Verb|統治|The king will ______ for ten years.|國王將統治十年。
+foreign|Adjective|外國的|Can you speak a ______ language?|你會說外語嗎？
+campaign|Noun|活動；競選|The school has a clean-up ______.|學校有一個清潔活動。
+champagne|Noun|香檳|They open the ______ at the party.|他們在派對上開香檳。
+gnome|Noun|地精；小矮人|There is a ______ in the garden.|花園裡有一個地精雕像。
+gnaw|Verb|啃|The dog likes to ______ on bones.|狗喜歡啃骨頭。
+gnat|Noun|小蚊蟲|A ______ is flying around my face.|一隻小蚊蟲在我臉旁飛。
+gnu|Noun|牛羚|A ______ lives in Africa.|牛羚住在非洲。
+gnash|Verb|咬（牙）|The monster ______es its teeth.|怪獸咬牙切齒。
+
+## gh | gh = f / silent gh | gh 發 f 或不發音 | Silent Letters | gh
+laugh|Verb|笑|Funny jokes make me ______.|好笑的笑話讓我大笑。
+laughter|Noun|笑聲|I hear ______ in the classroom.|我聽到教室裡的笑聲。
+cough|Verb|咳嗽|Cover your mouth when you ______.|咳嗽時要遮住嘴巴。
+rough|Adjective|粗糙的|The rock is ______.|這塊石頭很粗糙。
+tough|Adjective|困難的；堅韌的|This test is ______.|這次考試很難。
+enough|Adjective|足夠的|Do you have ______ money?|你的錢夠嗎？
+daughter|Noun|女兒|They have one ______.|他們有一個女兒。
+eight|Number|八|I go to bed at ______.|我八點上床睡覺。
+weigh|Verb|稱重；重…|How much do you ______?|你多重？
+neighbor|Noun|鄰居|My ______ has a big dog.|我的鄰居有一隻大狗。
+caught|Verb (past)|抓住（過去式）|The cat ______ a mouse.|貓抓到一隻老鼠。
+taught|Verb (past)|教（過去式）|Mr. Lin ______ us math.|林老師教我們數學。
+bought|Verb (past)|買（過去式）|I ______ a new pen.|我買了一枝新筆。
+thought|Verb (past)|想（過去式）|I ______ it was easy.|我以為那很簡單。
+
+## le-ending | -le ending /əl/ | 字尾 -le | Word Endings | [bcdfgkptz]le\b
+table|Noun|桌子|The food is on the ______.|食物在桌上。
+candle|Noun|蠟燭|Blow out the ______s!|吹蠟燭！
+bottle|Noun|瓶子|I have a water ______.|我有一個水壺。
+little|Adjective|小的|I have a ______ sister.|我有一個妹妹。
+bubble|Noun|泡泡|Let's blow ______s.|我們來吹泡泡吧。
+puzzle|Noun|拼圖；謎題|We finished the ______.|我們完成了拼圖。
+jungle|Noun|叢林|Tigers live in the ______.|老虎住在叢林裡。
+eagle|Noun|老鷹|An ______ flies high.|老鷹飛得很高。
+needle|Noun|針|The nurse has a ______.|護理師拿著一根針。
+pickle|Noun|醃黃瓜|I don't want ______s on my burger.|我的漢堡不要加酸黃瓜。
+uncle|Noun|叔叔；舅舅|My ______ lives in Tainan.|我叔叔住在台南。
+giggle|Verb|咯咯笑|The girls ______ at the joke.|女孩們聽到笑話咯咯笑。
+noodle|Noun|麵條|I like beef ______ soup.|我喜歡牛肉麵。
+middle|Noun|中間|Stand in the ______.|站在中間。
+
+## ed-ending | -ed ending (/t/ /d/ /ɪd/) | 字尾 -ed 三種發音 | Word Endings | ed\b
+jumped|Verb (past) /t/|跳了|The cat ______ onto the bed.|貓跳上床。
+cooked|Verb (past) /t/|煮了|Dad ______ dinner for us.|爸爸為我們煮晚餐。
+washed|Verb (past) /t/|洗了|I ______ my hands.|我洗了手。
+helped|Verb (past) /t/|幫忙了|She ______ me with my homework.|她幫我寫功課。
+kicked|Verb (past) /t/|踢了|He ______ the ball.|他踢了球。
+played|Verb (past) /d/|玩了|We ______ soccer yesterday.|我們昨天踢足球。
+cleaned|Verb (past) /d/|打掃了|I ______ my room.|我打掃了房間。
+called|Verb (past) /d/|打電話了|Mom ______ me at noon.|媽媽中午打給我。
+rained|Verb (past) /d/|下雨了|It ______ all day.|下了一整天的雨。
+smiled|Verb (past) /d/|微笑了|The baby ______ at me.|寶寶對我笑了。
+wanted|Verb (past) /ɪd/|想要了|I ______ a puppy.|我想要一隻小狗。
+painted|Verb (past) /ɪd/|畫了|We ______ a picture.|我們畫了一幅畫。
+needed|Verb (past) /ɪd/|需要了|He ______ some help.|他需要一些幫忙。
+visited|Verb (past) /ɪd/|拜訪了|We ______ Grandma on Sunday.|我們星期天去看奶奶。
+shouted|Verb (past) /ɪd/|大叫了|The boy ______ "Help!"|男孩大喊「救命！」
+
+## tion | -tion /ʃən/ | 字尾 -tion ㄒㄩㄣ | Word Endings | tion
+station|Noun|車站|Meet me at the train ______.|在火車站跟我碰面。
+nation|Noun|國家|Taiwan is an island ______.|台灣是一個島國。
+action|Noun|行動；動作|I like ______ movies.|我喜歡動作片。
+lotion|Noun|乳液|Put ______ on your dry skin.|在乾燥的皮膚上擦乳液。
+motion|Noun|動作；移動|The car is in ______.|車子正在移動。
+potion|Noun|藥水|The witch makes a magic ______.|女巫調製魔法藥水。
+vacation|Noun|假期|We go to the beach on ______.|我們放假去海邊。
+information|Noun|資訊|I need more ______.|我需要更多資訊。
+education|Noun|教育|______ is important.|教育很重要。
+invitation|Noun|邀請函|I got an ______ to the party.|我收到派對的邀請函。
+celebration|Noun|慶祝活動|We have a big ______ for New Year.|我們有盛大的新年慶祝活動。
+competition|Noun|比賽|She won the singing ______.|她贏了歌唱比賽。
+direction|Noun|方向|Which ______ is the park?|公園在哪個方向？
+collection|Noun|收藏|He has a big stamp ______.|他有很多郵票收藏。
+
+## +ph-f
+photo|Noun|照片|Let's take a ______ together.|我們一起拍張照吧。
+phonics|Noun|自然發音|We learn ______ in English class.|我們在英文課學自然發音。
+headphones|Noun|耳機|Put on your ______.|戴上你的耳機。
+microphone|Noun|麥克風|Sing into the ______.|對著麥克風唱歌。
+nephew|Noun|姪子；外甥|My ______ is five years old.|我的姪子五歲。
+pharmacy|Noun|藥局|Buy the medicine at the ______.|在藥局買藥。
+trophy|Noun|獎盃|He holds the gold ______.|他拿著金色獎盃。
+
+## +wh
+what|Pronoun|什麼|______ is your name?|你叫什麼名字？
+where|Adverb|哪裡|______ is my pencil?|我的鉛筆在哪裡？
+whisper|Verb|小聲說|Please ______ in the library.|在圖書館請小聲說話。
+whistle|Noun|哨子|The coach blows a ______.|教練吹哨子。
+whiskers|Noun|鬍鬚|A cat has long ______.|貓有長長的鬍鬚。
+wheelchair|Noun|輪椅|Grandpa uses a ______.|爺爺坐輪椅。
+
+## +kn-n
+knuckle|Noun|指關節|He hurt his ______.|他弄傷了指關節。
+knowledge|Noun|知識|Books give us ______.|書本給我們知識。
+knapsack|Noun|背包|I carry a ______ on the hike.|健行時我背著背包。
+knew|Verb (past)|知道（過去式）|I ______ the answer!|我知道答案！
