@@ -54,6 +54,12 @@ for (const line of txt) {
   cur.items.push({ word, pos, definition, sentence, translation, answer: word, id: word.toLowerCase() });
 }
 
+for (const r of byId.values()) for (const i of r.items) {
+  const m = String(i.definition || "").match(/^\s*[,\/]\s*([A-Za-z.]+)\s+(.*)$/);
+  if (m) { i.pos = `${i.pos}/${m[1]}`; i.definition = m[2]; }
+  if (i.word === "Youtuber") i.definition = "YouTube 創作者";
+  if (i.word === "north" && /注/.test(i.definition)) i.definition = "北方";
+}
 const out = [];
 for (const [group, ids] of GROUPS) for (const id of ids) {
   const r = byId.get(id); if (!r) throw new Error("missing " + id);

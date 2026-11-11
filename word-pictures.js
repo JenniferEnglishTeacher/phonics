@@ -14,7 +14,7 @@ bag|🎒
 cat|🐱
 cap|🧢
 cab|🚕
-dad|👨‍👧
+dad|👨
 dan|👦
 fan|🪭
 fat|🐷
@@ -53,7 +53,7 @@ glad|😊
 happy|😄
 want|🤲❤️
 water|💧
-father|👨‍👦
+father|👨
 swan|🦢
 what|❓
 ben|👦
@@ -70,7 +70,7 @@ jet|✈️
 led|🧭
 leg|🦵
 let|✅🚪
-men|👨‍👨
+men|👨👨
 met|🤝
 net|🥅
 pen|🖊️
@@ -143,7 +143,7 @@ pot|🍲
 dot|⚫
 lot|🍬🍬🍬
 rot|🍂
-mom|👩‍👧
+mom|👩
 jog|🏃
 fog|🌫️
 log|🪵
@@ -414,7 +414,7 @@ candy|🍬
 funny|🤣
 puppy|🐶
 bunny|🐰
-family|👨‍👩‍👧‍👦
+family|👨👩👧👦
 party|🥳
 pony|🐴
 lady|👩
@@ -498,7 +498,7 @@ mouse|🐭
 found|🔍✨
 sound|🔊
 ground|🟫
-our|👨‍👩‍👧
+our|👨👩👧
 hour|⏱️
 flour|🌾
 loud|📢
@@ -588,7 +588,7 @@ youtuber|📹
 winner|🏆
 loser|😞
 lover|💑
-mother|👩‍👧
+mother|👩
 brother|👦
 sister|👧
 grandmother|👵
@@ -691,7 +691,7 @@ war|⚔️
 warn|⚠️
 reward|🎖️
 dwarf|🧙
-quarter|◔
+quarter|🍰
 swarm|🐝🐝🐝
 work|💼
 worse|📉

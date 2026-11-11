@@ -1124,8 +1124,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "pop",
-    "pos": "Verb",
-    "definition": "/Adjective 流行的",
+    "pos": "Verb/Adjective",
+    "definition": "流行的",
     "sentence": "I love K-_______. I can sing and dance to K-pop songs.",
     "translation": "我喜歡韓國流行樂。我可以 一邊唱一邊跳韓國歌",
     "answer": "pop"
@@ -1180,8 +1180,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "jog",
-    "pos": "Verb",
-    "definition": "/Noun 慢跑",
+    "pos": "Verb/Noun",
+    "definition": "慢跑",
     "sentence": "Let's go _____ging in the park.",
     "translation": "我們去公園慢跑吧。",
     "answer": "jog"
@@ -1212,8 +1212,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "lock",
-    "pos": "Noun",
-    "definition": "/Verb 鎖",
+    "pos": "Noun/Verb",
+    "definition": "鎖",
     "sentence": "Don't forget to _____ the door when you go out.",
     "translation": "別忘了鎖門。",
     "answer": "lock"
@@ -1268,8 +1268,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "shop",
-    "pos": "Verb",
-    "definition": "/Noun 購物/商店",
+    "pos": "Verb/Noun",
+    "definition": "購物/商店",
     "sentence": "We're going _____ at the mall.",
     "translation": "我們要去商場購物。",
     "answer": "shop"
@@ -1308,8 +1308,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "stop",
-    "pos": "n",
-    "definition": "/V 停止",
+    "pos": "n/V",
+    "definition": "停止",
     "sentence": "Please _____ running in the hallway.",
     "translation": "請不要在走廊裡奔跑。",
     "answer": "stop"
@@ -1557,8 +1557,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "bubble",
-    "pos": "Noun",
-    "definition": "/Verb 泡泡",
+    "pos": "Noun/Verb",
+    "definition": "泡泡",
     "sentence": "The children love to blow __________s.",
     "translation": "孩子們喜歡吹泡泡。",
     "answer": "bubble"
@@ -1647,8 +1647,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "faint",
-    "pos": "adjective",
-    "definition": ", verb 昏厥;暈倒",
+    "pos": "adjective/verb",
+    "definition": "昏厥;暈倒",
     "sentence": "It’s so hot. I may ________.",
     "translation": "天氣好熱。我可能會昏倒。",
     "answer": "faint"
@@ -1695,8 +1695,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "rake",
-    "pos": "noun",
-    "definition": ", verb 園藝耙",
+    "pos": "noun/verb",
+    "definition": "園藝耙",
     "sentence": "The farmers have to ________ the leaves.",
     "translation": "農夫們必須耙落葉。",
     "answer": "rake"
@@ -1711,8 +1711,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "wave",
-    "pos": "noun",
-    "definition": ", verb 海浪",
+    "pos": "noun/verb",
+    "definition": "海浪",
     "sentence": "I see a ________ in the sea.",
     "translation": "我看到一個海浪在海裡。",
     "answer": "wave"
@@ -1791,16 +1791,16 @@ const PHONICS_RULES = [
    },
    {
     "word": "hate",
-    "pos": "verb",
-    "definition": ", noun 恨",
+    "pos": "verb/noun",
+    "definition": "恨",
     "sentence": "I ________ mice.",
     "translation": "我討厭老鼠。",
     "answer": "hate"
    },
    {
     "word": "play",
-    "pos": "verb",
-    "definition": ", noun 玩遊戲",
+    "pos": "verb/noun",
+    "definition": "玩遊戲",
     "sentence": "They are ________ing baseball.",
     "translation": "他們正在打棒球。",
     "answer": "play"
@@ -1855,8 +1855,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "train",
-    "pos": "noun",
-    "definition": ", verb 火車",
+    "pos": "noun/verb",
+    "definition": "火車",
     "sentence": "I can ________ a train.",
     "translation": "我會搭火車 they noun 他們 ________ are my sister and brother. 他們是我的姊妹和兄弟",
     "answer": "train"
@@ -5942,8 +5942,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "far",
-    "pos": "adj",
-    "definition": "/adv. 遠的",
+    "pos": "adj/adv.",
+    "definition": "遠的",
     "sentence": "The station is _____ from here.",
     "translation": "車站離這裡很遠。",
     "answer": "far"
@@ -6144,7 +6144,7 @@ const PHONICS_RULES = [
    {
     "word": "Youtuber",
     "pos": "n",
-    "definition": "Youtuber",
+    "definition": "YouTube 創作者",
     "sentence": "He is a famous _____.",
     "translation": "他是一名著名的 Youtuber。",
     "answer": "Youtuber"
@@ -6296,16 +6296,16 @@ const PHONICS_RULES = [
    },
    {
     "word": "first",
-    "pos": "adj",
-    "definition": "/adv. 第一個",
+    "pos": "adj/adv.",
+    "definition": "第一個",
     "sentence": "She came in _____ place.",
     "translation": "她名列第一。",
     "answer": "first"
    },
    {
     "word": "third",
-    "pos": "adj",
-    "definition": "/adv. 第三個",
+    "pos": "adj/adv.",
+    "definition": "第三個",
     "sentence": "He came in _____ place.",
     "translation": "他名列第三。",
     "answer": "third"
@@ -13274,8 +13274,8 @@ const PHONICS_RULES = [
    },
    {
     "word": "shop=store",
-    "pos": "n",
-    "definition": "/v. 購物/商店",
+    "pos": "n/v.",
+    "definition": "購物/商店",
     "sentence": "She goes shopping at the ______ every week.",
     "translation": "她每週都去商店。",
     "answer": "shop"
@@ -13700,7 +13700,7 @@ const PHONICS_RULES = [
    {
     "word": "north",
     "pos": "n.",
-    "definition": "（注：also voiceless）",
+    "definition": "北方",
     "sentence": "The wind blows from the _____.",
     "translation": "風從北方吹來。",
     "answer": "north"
